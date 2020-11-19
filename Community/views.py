@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404
 
+from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
@@ -7,7 +8,7 @@ from rest_framework.authentication import TokenAuthentication
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
 from .serializers import ReviewSerializer, CommentSerializer
-from .models import Review
+from .models import Review, Comment
 
 @api_view(['GET', 'POST'])
 @authentication_classes([JSONWebTokenAuthentication])
@@ -15,9 +16,9 @@ from .models import Review
 def review_list_create(request):
     # 보여지는 로직
     if request.method == 'GET':
-        # reviews = Review.objects.order_by('-pk')
-        # serializer = ReviewSerializer(reviews, many=True)
-        serializer = ReviewSerializer(request.user.reviews, many=True)
+        reviews = Review.objects.order_by('-pk')
+        serializer = ReviewSerializer(reviews, many=True)
+        # serializer = ReviewSerializer(request.user.reviews, many=True)
     else: # POST -> 글 작성 로직
         serializer = ReviewSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
@@ -43,22 +44,22 @@ def review_update_delete(request, pk):
 
 
 @api_view(['GET', 'POST'])
-# @authentication_classes([JSONWebTokenAuthentication])
-# @permission_classes([IsAuthenticated])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
 def comment(request, pk):
     review = get_object_or_404(Review, pk=pk)
     if request.method == 'GET':
-        serializer = CommentSerializer(request.user.comment, many=True)
+        comments = Comment.objects.filter(review=review)
+        serializer = CommentSerializer(comments, many=True)
         # serializer = CommentSerializer(request.user.comment, many=True)
         return Response(serializer.data)
+    # post의 경우
     else:
         serializer = CommentSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
-            comments = serializer.save()
-            comments.review = review
-            comments.user = request.user
-            comments.save()
-            return Response(comments)
+            serializer.save(review=review, user=request.user)
+            return Response(serializer.data)
+
 
 ## 보류!!
 def like(request, pk):
