@@ -61,6 +61,21 @@ def comment(request, pk):
             return Response(serializer.data)
 
 
+@api_view(['PUT', 'DELETE'])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def comment_update_delete(request, pk, comment_pk):
+    comment = get_object_or_404(Comment, pk=comment_pk)
+    if request.method == 'PUT':
+        serializer = CommentSerializer(comment, data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)
+    else:
+        comment.delete()
+        return Response({'id': comment_pk})
+
+
 ## 보류!!
 def like(request, pk):
     review = get_object_or_404(Review, pk=pk)
