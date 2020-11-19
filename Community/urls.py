@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.review_list_create),
     path('<int:pk>/', views.review_update_delete),
     path('<int:pk>/like/', views.like),
+    path('<int:pk>/comment/', views.comment),
 ]
