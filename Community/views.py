@@ -15,8 +15,8 @@ def review_list_create(request):
     # 보여지는 로직
     if request.method == 'GET':
         reviews = Review.objects.all()
-        # serializer = ReviewSerializer(request.user.todos, many=True)
         serializer = ReviewSerializer(reviews, many=True)
+        serializer = ReviewSerializer(request.user.todos, many=True)
     else: # POST -> 글 작성 로직
         serializer = ReviewSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
@@ -41,5 +41,18 @@ def review_update_delete(request, pk):
         return Response({'id':pk,})
 
 
-# def like(request, pk):
-#     review = get_object_or_404(Review, pk=pk)
+def like(request, pk):
+    review = get_object_or_404(Review, pk=pk)
+    user = request.user
+
+    if review.like_users.filter(pk=user.pk).exists():
+        review.like_users.remove(user)
+        liked = False
+    else:
+        reviews.like_users.add(user)
+        liked = True
+    context = {
+        'liked' : liked,
+        'likecnt' : review.like_users.count()
+    }
+    return Responser(context)
