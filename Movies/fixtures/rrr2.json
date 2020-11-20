@@ -135,7 +135,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "로그 시티",
 			"release_date": "2020-10-30",
 			"popularity": 1307.787,
@@ -154,7 +153,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "하드 킬",
 			"release_date": "2020-10-23",
 			"popularity": 1259.974,
@@ -171,7 +169,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "마녀를 잡아라",
 			"release_date": "2020-10-26",
 			"popularity": 964.599,
@@ -191,7 +188,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "애프터: 그 후",
 			"release_date": "2020-09-02",
 			"popularity": 732.486,
@@ -208,7 +204,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "뉴 뮤턴트",
 			"release_date": "2020-08-26",
 			"popularity": 681.098,
@@ -227,7 +222,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "원스 어폰 어 스노우맨",
 			"release_date": "2020-10-23",
 			"popularity": 697.979,
@@ -246,7 +240,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "컴 플레이",
 			"release_date": "2020-10-28",
 			"popularity": 588.401,
@@ -262,7 +255,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "극장판 귀멸의 칼날: 무한열차편",
 			"release_date": "2020-10-16",
 			"popularity": 544.621,
@@ -283,7 +275,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "오버 더 문",
 			"release_date": "2020-10-16",
 			"popularity": 546.597,
@@ -302,7 +293,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "브이에프더블유",
 			"release_date": "2020-10-14",
 			"popularity": 528.93,
@@ -320,7 +310,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "에이바",
 			"release_date": "2020-07-02",
 			"popularity": 544.473,
@@ -339,7 +328,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "반도",
 			"release_date": "2020-07-15",
 			"popularity": 523.908,
@@ -357,7 +345,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "로그",
 			"release_date": "2020-08-20",
 			"popularity": 497.673,
@@ -376,7 +363,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "그린랜드",
 			"release_date": "2020-07-29",
 			"popularity": 663.205,
@@ -393,7 +379,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "트롤: 월드 투어",
 			"release_date": "2020-03-12",
 			"popularity": 333.307,
@@ -414,7 +399,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "스펠",
 			"release_date": "2020-10-30",
 			"popularity": 338.569,
@@ -431,7 +415,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "택스 콜렉터",
 			"release_date": "2020-08-07",
 			"popularity": 322.771,
@@ -449,7 +432,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "러브 앤 몬스터즈",
 			"release_date": "2020-10-16",
 			"popularity": 306.511,
@@ -468,7 +450,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "아웃포스트",
 			"release_date": "2020-06-24",
 			"popularity": 200.572,
@@ -487,7 +468,6 @@
 	{
 		"model": "movies.nowplaying",
 		"fields": {
-			"adult": false,
 			"title": "영안실의 미스테리",
 			"release_date": "2020-10-08",
 			"popularity": 271.962,
@@ -504,7 +484,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "로그 시티",
 			"release_date": "2020-10-30",
 			"popularity": 1307.787,
@@ -523,7 +502,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
 			"release_date": "2020-08-14",
 			"popularity": 1232.799,
@@ -543,7 +521,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "2067",
 			"release_date": "2020-10-01",
 			"popularity": 1387.546,
@@ -561,7 +538,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "하드 킬",
 			"release_date": "2020-10-23",
 			"popularity": 1259.974,
@@ -578,7 +554,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "마녀를 잡아라",
 			"release_date": "2020-10-26",
 			"popularity": 964.599,
@@ -598,7 +573,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "웰컴 투 서든 데쓰",
 			"release_date": "2020-09-29",
 			"popularity": 859.937,
@@ -617,7 +591,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "애프터: 그 후",
 			"release_date": "2020-09-02",
 			"popularity": 732.486,
@@ -634,7 +607,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "에놀라 홈즈",
 			"release_date": "2020-09-23",
 			"popularity": 745.918,
@@ -652,7 +624,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "뉴 뮤턴트",
 			"release_date": "2020-08-26",
 			"popularity": 681.098,
@@ -671,7 +642,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "원스 어폰 어 스노우맨",
 			"release_date": "2020-10-23",
 			"popularity": 697.979,
@@ -690,7 +660,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "뮬란",
 			"release_date": "2020-09-04",
 			"popularity": 731.692,
@@ -709,7 +678,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "컴 플레이",
 			"release_date": "2020-10-28",
 			"popularity": 588.401,
@@ -725,7 +693,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "극장판 귀멸의 칼날: 무한열차편",
 			"release_date": "2020-10-16",
 			"popularity": 544.621,
@@ -746,7 +713,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "오버 더 문",
 			"release_date": "2020-10-16",
 			"popularity": 546.597,
@@ -765,7 +731,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "배트맨: 데스 인 더 패밀리",
 			"release_date": "2020-10-13",
 			"popularity": 536.503,
@@ -782,7 +747,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "브이에프더블유",
 			"release_date": "2020-10-14",
 			"popularity": 528.93,
@@ -800,7 +764,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "에이바",
 			"release_date": "2020-07-02",
 			"popularity": 544.473,
@@ -819,7 +782,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "반도",
 			"release_date": "2020-07-15",
 			"popularity": 523.908,
@@ -837,7 +799,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "플레인 하이스트",
 			"release_date": "2020-09-29",
 			"popularity": 532.446,
@@ -853,7 +814,6 @@
 	{
 		"model": "movies.popular",
 		"fields": {
-			"adult": false,
 			"title": "보랏 속편",
 			"release_date": "2020-10-23",
 			"popularity": 495.392,
@@ -869,7 +829,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "마녀를 잡아라",
 			"release_date": "2020-10-26",
 			"popularity": 964.599,
@@ -889,7 +848,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "극장판 귀멸의 칼날: 무한열차편",
 			"release_date": "2020-10-16",
 			"popularity": 544.621,
@@ -910,7 +868,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "그린랜드",
 			"release_date": "2020-07-29",
 			"popularity": 663.205,
@@ -927,7 +884,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "스푸트니크",
 			"release_date": "2020-09-10",
 			"popularity": 317.85,
@@ -945,7 +901,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "워 위드 그랜파",
 			"release_date": "2020-08-27",
 			"popularity": 260.687,
@@ -963,7 +918,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "레이디 드라이버",
 			"release_date": "2020-12-03",
 			"popularity": 173.268,
@@ -979,7 +933,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "데스 오브 미",
 			"release_date": "2020-10-02",
 			"popularity": 179.854,
@@ -996,7 +949,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "피노키오",
 			"release_date": "2019-12-19",
 			"popularity": 171.221,
@@ -1015,7 +967,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "아파트 209",
 			"release_date": "2020-11-26",
 			"popularity": 156.916,
@@ -1033,7 +984,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "크루즈 패밀리 2",
 			"release_date": "2020-11-19",
 			"popularity": 158.177,
@@ -1052,7 +1002,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "딥워터",
 			"release_date": "2020-02-14",
 			"popularity": 121.196,
@@ -1070,7 +1019,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "프리키 데스데이",
 			"release_date": "2020-11-11",
 			"popularity": 89.755,
@@ -1088,7 +1036,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "팜 스프링스",
 			"release_date": "2020-07-10",
 			"popularity": 79.59,
@@ -1107,7 +1054,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "웬디",
 			"release_date": "2020-02-28",
 			"popularity": 71.6,
@@ -1125,7 +1071,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "Le prince oublié",
 			"release_date": "2020-02-12",
 			"popularity": 68.313,
@@ -1143,7 +1088,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "나의 인생여행",
 			"release_date": "2020-09-25",
 			"popularity": 70.89,
@@ -1160,7 +1104,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "울프 오브 스노우 할로우",
 			"release_date": "2020-12-10",
 			"popularity": 64.722,
@@ -1177,7 +1120,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "사다코",
 			"release_date": "2019-05-24",
 			"popularity": 53.782,
@@ -1193,7 +1135,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "드림랜드",
 			"release_date": "2020-11-13",
 			"popularity": 47.855,
@@ -1210,7 +1151,6 @@
 	{
 		"model": "movies.upcoming",
 		"fields": {
-			"adult": false,
 			"title": "컴 어웨이",
 			"release_date": "2020-11-12",
 			"popularity": 42.334,

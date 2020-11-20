@@ -6,7 +6,7 @@ class Genre(models.Model):
     name = models.CharField(max_length=50)
 
 class Nowplaying(models.Model):
-    # adult = models.BooleanField()
+    adult = models.BooleanField()
     title = models.CharField(max_length=100)
     release_date = models.DateField()
     popularity = models.FloatField()
@@ -18,7 +18,7 @@ class Nowplaying(models.Model):
 
 
 class Popular(models.Model):
-    # adult = models.BooleanField()
+    adult = models.BooleanField()
     title = models.CharField(max_length=100)
     release_date = models.DateField()
     popularity = models.FloatField()
@@ -30,7 +30,7 @@ class Popular(models.Model):
 
 
 class Upcoming(models.Model):
-    # adult = models.BooleanField()
+    adult = models.BooleanField()
     title = models.CharField(max_length=100)
     release_date = models.DateField()
     popularity = models.FloatField()
