@@ -6,7 +6,7 @@ class Genre(models.Model):
     name = models.CharField(max_length=50)
 
 class Nowplaying(models.Model):
-    adult = models.BooleanField()
+    adult = models.BooleanField(default=False)
     title = models.CharField(max_length=100)
     release_date = models.DateField()
     popularity = models.FloatField()
