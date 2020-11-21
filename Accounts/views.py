@@ -26,7 +26,6 @@ def signup(request):
 
 @api_view(['GET'])
 def userlist(request):
-    # if request.user.is_superuser:
     user = get_user_model()
     users = user.objects.all()
     serializer = UserListSerializer(users, many=True)
@@ -39,6 +38,8 @@ def profile(request, username):
     serializer = UserinformationSerializer(person)
     return Response(serializer.data)
 
-
+@api_view(['POST'])
+def wish(request, title):
+    pass
 
 

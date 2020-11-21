@@ -39,3 +39,15 @@ class Upcoming(models.Model):
     overview = models.TextField()
     poster_path = models.CharField(max_length=200)
     genres = models.ManyToManyField(Genre, related_name="upcomming_genre")
+
+
+class Movie(models.Model):
+    adult = models.BooleanField()
+    title = models.CharField(max_length=100)
+    release_date = models.DateField()
+    popularity = models.FloatField()
+    vote_count = models.IntegerField()
+    vote_average = models.FloatField()
+    overview = models.TextField()
+    poster_path = models.CharField(max_length=200)
+    genres = models.ManyToManyField(Genre, related_name="genre")
