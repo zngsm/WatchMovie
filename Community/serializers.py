@@ -15,3 +15,4 @@ class CommentSerializer(serializers.ModelSerializer):
         model = Comment
         fields = ('id', 'content', 'review')
         read_only_fields = ('review',)
+        
