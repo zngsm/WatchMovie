@@ -7,7 +7,8 @@ urlpatterns = [
     path('signup/', views.signup),
     path('api-token-auth/', obtain_jwt_token),
     path('userlist/', views.userlist),
-    path('wishmovie/<title>/', views.wish),
     path('<username>/', views.profile),
-    
+    path('<username>/wishmovie/', views.wish),
+    path('<username>/wishmovie/<int:movie_pk>/', views.wish_delete),
+    # path('wishmovie/<title>/', views.wish),
 ]
