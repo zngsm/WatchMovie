@@ -35,7 +35,7 @@ def upcoming(request):
     print(serializer.data)
     return Response(serializer.data)
 
-
+@api_view(['GET'])
 def search_movie(request, movie_title):
     client_id = "3OYeWxkVJzpnx_IM2YzM"
     client_secret = "aAmnOUDOTv"

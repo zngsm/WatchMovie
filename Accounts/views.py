@@ -8,7 +8,12 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
-from .serializers import UserSerializer, UserinformationSerializer, UserListSerializer, UserWishListSerializer
+from rest_framework.decorators import authentication_classes, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import TokenAuthentication
+from rest_framework_jwt.authentication import JSONWebTokenAuthentication
+
+from .serializers import UserSerializer, UserinformationSerializer, UserListSerializer, UserWishListSerializer, UserSubscribeSerializer
 from .models import Wish
 
 # Create your views here.
@@ -37,29 +42,19 @@ def userlist(request):
     # return Response({'id':request.user.pk,})
     
 
-
 @api_view(['GET'])
-def profile(request, username):
-    person = get_object_or_404(get_user_model(), username=username)
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def profile(request, user_pk):
+    person = get_object_or_404(get_user_model(), pk=user_pk)
     serializer = UserinformationSerializer(person)
     return Response(serializer.data)
 
-# @api_view(['GET', 'POST'])
-# def wish(request, username):
-#     person = get_object_or_404(get_user_model(), username=username)
-#     if request.method == 'GET':
-#         movie = person.wish_movie
-#         serializer = UserWishListSerializer()
-#     else:
-#         movie_title = request.data
-#         if person.wish_movie.filter(title=movie_title).exists():
-#             person.wish_movie.remove(movie_title)
-#         else:
-#             person.wish_movie.add(movie_title)
-
 @api_view(['GET', 'POST'])
-def wish(request, username):
-    person = get_object_or_404(get_user_model(), username=username)
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def wish(request, userpk):
+    person = get_object_or_404(get_user_model(), pk=user_pk)
     if request.method == 'GET':
         wishmovie = Wish.objects.filter(user=person)
         serializer = UserWishListSerializer(wishmovie, many=True)
@@ -73,9 +68,36 @@ def wish(request, username):
 
 
 @api_view(['DELETE'])
-def wish_delete(request, username, movie_pk):
-    person = get_object_or_404(get_user_model(), username=username)
+def wish_delete(request, user_pk, movie_pk):
+    person = get_object_or_404(get_user_model(), pk=user_pk)
     wishmovie = Wish.objects.filter(user=person)
     deleted_movie = get_object_or_404(wishmovie, pk=movie_pk)
     deleted_movie.delete()
     return Response({'title': deleted_movie.title})
+
+
+@api_view(['GET'])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def subscribe_list(request, user_pk):
+    me = get_object_or_404(get_user_model(), pk=user_pk)
+    # if request.method == 'GET':
+    subscribe = me.subscribe
+    serializer = UserSubscribeSerializer(subscribe, many=True)
+    return Response(serializer.data)
+
+
+@api_view(['POST', 'DELETE'])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def subscribe(request, user_pk):
+    me = request.user
+    person = get_object_or_404(get_user_model(), pk=user_pk)
+    if request.method == 'POST':
+        subscribe = person.subscriber.add(me)
+        serializer = UserSubscribeSerializer(subscribe, many=True)
+        return Response(serializer.data)
+    else:
+        subscribe = person.subscriber.remove(me)
+        serializer = UserSubscribeSerializer(subscribe, many=True)
+        return Response(serializer.data)

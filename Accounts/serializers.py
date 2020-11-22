@@ -13,7 +13,8 @@ class UserinformationSerializer(serializers.ModelSerializer):
     class Meta:
         model = get_user_model()
         # fields = ('username', 'wish_movie', 'reviews', 'comment', 'followers', 'followings')
-        fields = '__all__'
+        fields = ('username', 'wish_movie', 'reviews', 'comment', 'subscribe', 'subscriber')
+        
 
 
 class UserListSerializer(serializers.ModelSerializer):
@@ -26,3 +27,9 @@ class UserWishListSerializer(serializers.ModelSerializer):
         model = Wish
         fields = ('id', 'title',)
         read_only_fields = ('user',)
+
+class UserSubscribeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = get_user_model()
+        fields = ('id', 'username',)
+        read_only_fields = ('id', 'username',)
