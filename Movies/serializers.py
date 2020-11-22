@@ -20,3 +20,11 @@ class UpcomingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Upcoming
         fields = '__all__'
+
+
+# class SearchmovieSerializer(serializers.ModelSerializer):
+
+#     class Meta:
+#         model = SearchMovie
+#         fields = '__all__'
+
