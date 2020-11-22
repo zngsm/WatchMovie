@@ -10,5 +10,4 @@ class User(AbstractUser):
 class Wish(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='wish_movie')
     title = models.CharField(max_length=100)
-
-
+    num = models.IntegerField()

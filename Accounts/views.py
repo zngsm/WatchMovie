@@ -47,13 +47,63 @@ def userlist(request):
 @permission_classes([IsAuthenticated])
 def profile(request, user_pk):
     person = get_object_or_404(get_user_model(), pk=user_pk)
-    serializer = UserinformationSerializer(person)
-    return Response(serializer.data)
+    # serializer = UserinformationSerializer(person)
+    # return Response(serializer.data)
+    context = {
+        'username': person.username,
+    }
+    # wish정보
+
+    wi = []
+    for wish in person.wish_movie.all():
+        w = {}
+        w['id'] = wish.num
+        w['title'] = wish.title
+        wi.append(w)
+    context['wish_movie'] = wi
+
+    # # reviews
+    review = []
+    for r in person.reviews.all():
+        re_dict = {}
+        re_dict['id'] = r.id
+        re_dict['title'] = r.title
+        review.append(re_dict)
+    context['reviews'] = review
+
+    # # comment
+
+    c = []
+    for r in person.comment.all():
+        comment = {}
+        comment['content'] = r.content
+        comment['review_id'] = r.review.pk
+        comment['review'] = r.review.title
+        c.append(comment)
+    context['comment'] = c
+
+    sub = []
+    for s in person.subscribe.all():
+        sub_dict = {}
+        sub_dict['id'] = s.id
+        sub_dict['username'] = s.username
+        sub.append(sub_dict)
+    context['subscribe'] = sub
+
+    subed = []
+    for s in person.subscriber.all():
+        sub_dict = {}
+        sub_dict['id'] = s.id
+        sub_dict['username'] = s.username
+        subed.append(sub_dict)
+    context['subscriber'] = subed
+
+    return Response(context)
 
 @api_view(['GET', 'POST'])
 @authentication_classes([JSONWebTokenAuthentication])
 @permission_classes([IsAuthenticated])
-def wish(request, userpk):
+def wish(request, user_pk):
     person = get_object_or_404(get_user_model(), pk=user_pk)
     if request.method == 'GET':
         wishmovie = Wish.objects.filter(user=person)

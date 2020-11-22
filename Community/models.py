@@ -5,6 +5,7 @@ from django.conf import settings
 class Review(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='reviews')
     title = models.CharField(max_length=50)
+    movie_title = models.CharField(max_length=50)
     content = models.TextField()
     rank = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -17,7 +18,3 @@ class Comment(models.Model):
     content = models.CharField(max_length=300)
     review = models.ForeignKey(Review, on_delete=models.CASCADE, related_name='comment')
 
-
-# class like(models.Model):
-#     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='like_movie')
-#     review

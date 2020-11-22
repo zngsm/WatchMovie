@@ -74,21 +74,3 @@ def comment_update_delete(request, pk, comment_pk):
     else:
         comment.delete()
         return Response({'id': comment_pk})
-
-
-## 보류!!
-# def like(request, pk):
-#     review = get_object_or_404(Review, pk=pk)
-#     user = request.user
-#     if request.method == 'POST':
-#         if review.like_users.filter(pk=user.pk).exists():
-#             review.like_users.remove(user)
-#             liked = False
-#         else:
-#             reviews.like_users.add(user)
-#             liked = True
-#         context = {
-#             'liked' : liked,
-#             'likecnt' : review.like_users.count()
-#         }
-#         return Response(context)

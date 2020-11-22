@@ -1,0 +1,5805 @@
+[
+	{
+    "model": "movies.genre",
+    "pk": 28,
+    "fields": {
+      "name": "액션"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 12,
+    "fields": {
+      "name": "모험"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 16,
+    "fields": {
+      "name": "애니메이션"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 35,
+    "fields": {
+      "name": "코미디"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 80,
+    "fields": {
+      "name": "범죄"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 99,
+    "fields": {
+      "name": "다큐멘터리"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 18,
+    "fields": {
+      "name": "드라마"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10751,
+    "fields": {
+      "name": "가족"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 14,
+    "fields": {
+      "name": "판타지"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 36,
+    "fields": {
+      "name": "역사"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 27,
+    "fields": {
+      "name": "공포"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10402,
+    "fields": {
+      "name": "음악"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 9648,
+    "fields": {
+      "name": "미스터리"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10749,
+    "fields": {
+      "name": "로맨스"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 878,
+    "fields": {
+      "name": "SF"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10770,
+    "fields": {
+      "name": "TV 영화"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 53,
+    "fields": {
+      "name": "스릴러"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10752,
+    "fields": {
+      "name": "전쟁"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 37,
+    "fields": {
+      "name": "서부"
+    }
+  },
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 718444,
+			"adult": false,
+			"title": "로그",
+			"release_date": "2020-08-20",
+			"popularity": 480.983,
+			"vote_count": 364,
+			"vote_average": 5.8,
+			"overview": "대장 샘이 이끄는 용병팀 로그는 무장 단체 알샤바브에게 납치된 주지사의 딸을 구출하기 위해 남아프리카 공화국으로 파견된다. 가까스로 타깃 구출에 성공하지만 잔혹하고 무자비한 알샤바브의 추격은 계속되고, 치열한 전투 속 생사의 갈림길에 서게 된 로그 팀 앞에 치명적인 미지의 존재가 등장한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/Amkk8KY5Vy81RDrVlDDhd2Ay9ho.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 531499,
+			"adult": false,
+			"title": "택스 콜렉터",
+			"release_date": "2020-08-07",
+			"popularity": 355.786,
+			"vote_count": 183,
+			"vote_average": 6,
+			"overview": "LA 지역 갱들을 관리하며 상납금을 수금하는 최고의 파트너 ‘크리퍼’와 ‘데이비드’. 세상 무서울 것 없는 이들 앞에 조직을 통째로 삼키려는 무법자 ‘코네호’가 나타난다. 지독하고 거칠게 살아남은 두 사람은 조직과 모든 것을 지키기 위해 무자비한 피의 전쟁을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/yhhJPePGHGtJ6LBVKCyfJg5EBnA.jpg",
+			"genres": [
+				28,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 621151,
+			"adult": false,
+			"title": "스펠",
+			"release_date": "2020-10-30",
+			"popularity": 352.635,
+			"vote_count": 35,
+			"vote_average": 5.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4rjHhj1BAREc9zNFU8FheLJQdFf.jpg",
+			"genres": [
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 622855,
+			"adult": false,
+			"title": "징글 쟁글: 저니의 크리스마스",
+			"release_date": "2020-11-06",
+			"popularity": 450.373,
+			"vote_count": 96,
+			"vote_average": 7.4,
+			"overview": "화려하고 생기 넘치는 코블튼 마을을 배경으로, 전설적인 장난감 제작자 제로니커스 쟁글의 이야기를 보여준다. 상상 속에서나 볼 법한 그의 발명품들은 기발함과 경이로움으로 가득하다. 그런데 쟁글이 신뢰했던 수습생이 그가 가장 아끼는 장난감을 훔쳐 간다. 이제 희망은 쟁글 못지않게 영리하고 창의적인 손녀에게 달려있다. 그리고 오랫동안 잊고 있던 발명품에. 오랜 상처를 치유하고 내면의 마법을 다시 깨울 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ecpe029lbZf0VOfVp9DK8Voy8Vc.jpg",
+			"genres": [
+				10751,
+				14,
+				10402
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 446893,
+			"adult": false,
+			"title": "트롤: 월드 투어",
+			"release_date": "2020-03-12",
+			"popularity": 349.841,
+			"vote_count": 1302,
+			"vote_average": 7.5,
+			"overview": "노래와 춤을 즐기며 평화로운 나날을 보내던 팝 트롤 파피(안나 켄드릭)와 브랜치(저스틴 팀버레이크) 그리고 친구들. 어느 날 파피는 자신들 외에도 서로 다른 외모와 노래를 가진 5개의 트롤 마을이 더 있다는 것을 알게 된다. 모두와 친구가 되어 신나게 지내고 싶은 파피와 달리 록 트롤 마을의 여왕 바브(레이첼 블룸)는 다른 트롤 마을들을 위협해오고 있다. 바브는 트롤 조상들이 만든 팝, 테크노, 클래식, 컨트리, 펑크, 록 여섯개의 현을 찾아 모든 음악을 통합해, 록을 제외한 음악들을 파괴하려는 위험한 계획을 세운 것. 이를 모르는 팝 트롤들은 다른 음악을 사랑하는 트롤들과도 친구가 될 수 있으리라 믿으며 그들과 어울리기 위한 여행을 떠나는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/q9KF4CXgK6imiN0Obvg8D7IDRVz.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14,
+				12,
+				10402
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 594718,
+			"adult": false,
+			"title": "스푸트니크",
+			"release_date": "2020-09-10",
+			"popularity": 340.321,
+			"vote_count": 54,
+			"vote_average": 6.4,
+			"overview": "1983년 우주궤도를 돌던 소련의 오르비타-4호가 원인불명의 사고로 불시착하고, 생존한 우주비행사 베시냐코프의 이상징후를 진단하기 위해 뇌전문의인 클리모바가 만국과학연구소로 향한다. 그녀는 악화와 회복을 반복하는 베시냐코프를 진찰하면서, 외계의 기생생물이 그의 몸 안으로 침투하여 불시착과 함께 지구로 왔다는 기밀을 알게 된다. 베시냐코프와 기생생물 사이의 공생관계를 파악한 클리모바는 그를 구하기 위해 또 다른 계획을 꾸민다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tBi5xW9Rd0YoGB0aAggV0EN5LDP.jpg",
+			"genres": [
+				878,
+				18,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 590223,
+			"adult": false,
+			"title": "러브 앤 몬스터즈",
+			"release_date": "2020-10-16",
+			"popularity": 266.379,
+			"vote_count": 388,
+			"vote_average": 7.6,
+			"overview": "괴물들로 인해 황폐해진 세상. 몬스터포칼립스가 된 세상에서 죽은 줄로만 알았던 여자친구 에이미의 생존 소식을 라디오로 통해 듣고 그녀를 찾아 다시 세상밖으로 나와 한 마디로 사랑 찾아 모험을 떠나는 청년 조엘의 이야기",
+			"poster_path": "https://image.tmdb.org/t/p/w500/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
+			"genres": [
+				28,
+				12,
+				35,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 524216,
+			"adult": false,
+			"title": "영안실의 미스테리",
+			"release_date": "2020-10-08",
+			"popularity": 311.602,
+			"vote_count": 44,
+			"vote_average": 6.6,
+			"overview": "샘은 어느 별난 노인이 운영하는 외딴 영안실을 찾아가 자신을 조수로 일하게 해달라고 부탁하는 특이한 젊은 여성이다. 노인과 간단한 인터뷰를 마친 샘은 노인에게 장의사로 영안실에서 일하면서 그가 겪은 가장 무서운 이야기를 해달라고 한다. 노인은 샘에게 1950년대부터 19880년대까지 불길한 비밀을 다룬 네 가지 이야기를 들려준다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5WXeYnezavNI6hXH74aQYv6yFzj.jpg",
+			"genres": [
+				14,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 726739,
+			"adult": false,
+			"title": "캣츠 앤 독스 3: 퍼스 유나이트",
+			"release_date": "2020-10-02",
+			"popularity": 264.082,
+			"vote_count": 106,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4BgSWFMW2MJ0dT5metLzsRWO7IJ.jpg",
+			"genres": [
+				35,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 509635,
+			"adult": false,
+			"title": "아무도 없다",
+			"release_date": "2020-09-10",
+			"popularity": 231.022,
+			"vote_count": 107,
+			"vote_average": 6.1,
+			"overview": "낯선 도로 위에서 사이코패스 살인마의 표적이 된 제시카. 보복 운전과 악질 스토킹 끝에 절대 혼자 빠져나올 수 없는 숲으로 납치된다. 살갗을 찢는 억센 수풀부터 눈을 찌르는 비바람, 누군가 섬뜩하게 지켜보고 있는 듯한 짙은 어둠까지 누구의 도움도 바랄 수 없는 최악의 상황에서 세상 밖으로 탈출하기 위해 살인마와 목숨 건 사투를 벌이는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/yMr5OI0vX9L8sgf45OTFxp1quLm.jpg",
+			"genres": [
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 531876,
+			"adult": false,
+			"title": "아웃포스트",
+			"release_date": "2020-06-24",
+			"popularity": 180.618,
+			"vote_count": 439,
+			"vote_average": 6.7,
+			"overview": "사방이 산으로 둘러싸인 방어 불가 지상 최악의 전초기지! 적의 공격에 무방비하게 노출될 수밖에 없는 이곳 아군의 지원은 물론 제대로 된 보급조차 기대하기 힘들다. 군 조사단조차 ‘명백히 방어 불가능’ 이라는 판정을 내린 상태. 호시탐탐 기회를 엿보는 적들로, 매일매일이 위험한 상황 속 총공세가 시작되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/xO6M5dykvcgVhnnBgyW4CxEcy0C.jpg",
+			"genres": [
+				10752,
+				18,
+				36,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 501979,
+			"adult": false,
+			"title": "엑설런트 어드벤쳐 3",
+			"release_date": "2020-08-27",
+			"popularity": 172.415,
+			"vote_count": 269,
+			"vote_average": 6.3,
+			"overview": "30년 전 끝내주는 음악을 위해 미래와 과거를 오갔지만 아무것도 만들어내지 못한 채 시간만 보내다 어느덧 중년이 된 빌과 테드. 그러던 중 그들과 시간여행을 했던 루퍼스의 딸이 나타나 700년 뒤 미래로 빌과 테드를 데려간다. 그리고 또다시 주어진 일생일대의 미션. 시간과 공간을 뛰어넘어 인류를 하나로 만들 노래를 만들어내지 못하면 80분 뒤 세상은 종말한다는 것. 발등에 불똥이 떨어진 빌과 테드는 미래의 자신들에게 미래의 음악을 찾아 또다시 시간여행을 시작한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/2R5CIrN1Pevi9aO2ux520qM3luQ.jpg",
+			"genres": [
+				35,
+				878,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 611605,
+			"adult": false,
+			"title": "아파트 209",
+			"release_date": "2020-11-26",
+			"popularity": 151.949,
+			"vote_count": 1,
+			"vote_average": 5,
+			"overview": "아버지의 그늘에서 벗어나 새로운 생활을 하려는 여주인공은 작은 아파트 단지에 입주하게 된다  그런데 입주 후 밤새 들려오는 소음과 이 상한 주민 때문에 신경이 쓰이다가 자신의 반려 고양이가 살해당하면서 아파트의 진실이 밝혀지는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/pqoyWuf3txAsyWsOGMRUTesegB5.jpg",
+			"genres": [
+				53,
+				18,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 577922,
+			"adult": false,
+			"title": "테넷",
+			"release_date": "2020-08-22",
+			"popularity": 127.387,
+			"vote_count": 2274,
+			"vote_average": 7.5,
+			"overview": "시간의 흐름을 뒤집는 인버전을 통해 현재와 미래를 오가며 세상을 파괴하려는 사토르를 막기 위해 투입된 작전의 주도자. 인버전에 대한 정보를 가진 닐과 미술품 감정사이자 사토르에 대한 복수심이 가득한 그의 아내 캣과 협력해 미래의 공격에 맞서 제3차 세계대전을 막아야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/aHt13urK4fzrOr30yHVmGT6OsE6.jpg",
+			"genres": [
+				28,
+				53,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 505379,
+			"adult": false,
+			"title": "레베카",
+			"release_date": "2020-10-16",
+			"popularity": 145.795,
+			"vote_count": 420,
+			"vote_average": 6.4,
+			"overview": "갓 결혼한 젊은 여성이 남편 가문 소유의 저택에 도착하면서 시작되는 이야기. 황량한 해안, 웅장하지만 음산한 분위기가 감도는 저택에서, 그녀는 남편의 전처 레베카의 그림자와 싸우게 된다. 이미 세상을 떠난 비밀의 여인 레베카. 그녀의 흔적은 여전히 저택을 지배하고 있다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/pM392Gwr7DZatBzHutq6w5hllzS.jpg",
+			"genres": [
+				10749,
+				18,
+				9648,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 590995,
+			"adult": false,
+			"title": "크래프트: 레거시",
+			"release_date": "2020-10-28",
+			"popularity": 119.885,
+			"vote_count": 127,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg",
+			"genres": [
+				27,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 496243,
+			"adult": false,
+			"title": "기생충",
+			"release_date": "2019-05-30",
+			"popularity": 107.159,
+			"vote_count": 9781,
+			"vote_average": 8.5,
+			"overview": "전원 백수로 살 길 막막하지만 사이는 좋은 기택 가족. 장남 기우에게 명문대생 친구가 연결시켜 준 고액 과외 자리는 모처럼 싹튼 고정수입의 희망이다. 온 가족의 도움과 기대 속에 박 사장 집으로 향하는 기우. 글로벌 IT기업의 CEO인 박 사장의 저택에 도착하자 젊고 아름다운 사모님 연교와 가정부 문광이 기우를 맞이한다. 큰 문제 없이 박 사장의 딸 다혜의 과외를 시작한 기우. 그러나 이렇게 시작된 두 가족의 만남 뒤로, 걷잡을 수 없는 사건이 기다리고 있는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eJ0kCMcqKLBUaHhB9PfOMFu2uim.jpg",
+			"genres": [
+				35,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 627661,
+			"adult": false,
+			"title": "Cranston Academy: Monster Zone",
+			"release_date": "2020-04-29",
+			"popularity": 109.818,
+			"vote_count": 36,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iwWDHYlmiOXNBCsvhCDfccluLQK.jpg",
+			"genres": [
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 479259,
+			"adult": false,
+			"title": "로스트 걸 & 러브 호텔",
+			"release_date": "2020-09-18",
+			"popularity": 99.928,
+			"vote_count": 60,
+			"vote_average": 5.3,
+			"overview": "일본에서 영어를 가르치는 마가렛이 화려하면서 위험한 도쿄에서 겪는 이야기",
+			"poster_path": "https://image.tmdb.org/t/p/w500/vQgXwuJrlpzGDI8169tRQRy71Nv.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 667869,
+			"adult": false,
+			"title": "자기 앞의 생",
+			"release_date": "2020-11-03",
+			"popularity": 99.162,
+			"vote_count": 91,
+			"vote_average": 7.1,
+			"overview": "이탈리아 바닷가 마을. 홀로코스트 생존자인 그녀는 놀이방을 운영하며 살아간다. 그러던 어느 날 맞닥뜨린 12살 소년. 자신에게 강도질까지 했던 아이지만 그녀는 소년을 맞아들이기로 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/UUbUvAmetDIteIzCEgUay8XzEv.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 590706,
+			"adult": false,
+			"title": "주짓수",
+			"release_date": "2020-11-20",
+			"popularity": 121.26,
+			"vote_count": 48,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eLT8Cu357VOwBVTitkmlDEg32Fs.jpg",
+			"genres": [
+				28,
+				14,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 556984,
+			"adult": false,
+			"title": "트라이얼 오브 더 시카고 7",
+			"release_date": "2020-09-25",
+			"popularity": 88.89,
+			"vote_count": 601,
+			"vote_average": 7.8,
+			"overview": "1968년 민주당 전당대회 날. 평화롭게 시작된 시위가 경찰 및 주 방위군과 부딪치는 폭력적인 사태로 번진다. 애비 호프먼과 제리 루빈, 톰 헤이든, 보비 실 등의 시위 주동자들이 폭동을 선동하고 공모했다는 혐의로 기소된다. 그리고 이들에 대한 재판이 이어진다. 미국 역사상 가장 악명 높은 것 중 하나로 기록되는 재판이.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/h4jWa13fKnDRSOUdFR0jXaKac1.jpg",
+			"genres": [
+				18,
+				36,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 417466,
+			"adult": false,
+			"title": "모노스",
+			"release_date": "2019-09-05",
+			"popularity": 93.647,
+			"vote_count": 185,
+			"vote_average": 6.8,
+			"overview": "불법 무장 단체 사단의 8명의 청소년들과 그들의 인질이 콜롬비아 산악 지대에 숨어 있다. 그들의 귀중한 젖소 '샤키라'를 우연히 죽이게 된 사건은 생존을 위한 전쟁을 시작시킨다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/797KzFdpG0M5Y3um7ghl3WlvSrR.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 390635,
+			"adult": false,
+			"title": "극장판 페이트/스테이 나이트 [헤븐즈 필] 제3장 스프링 송",
+			"release_date": "2020-08-15",
+			"popularity": 103.358,
+			"vote_count": 18,
+			"vote_average": 4.4,
+			"overview": "마술사 '마스터'와 영령 '서번트'가 모든 소원을 이뤄주는 '성배'를 둘러싸고 싸우는 '성배전쟁'. 하지만 그 싸움은 일그러져 있었다. 마토 사쿠라는 자신이 저지른 죄와 함께 마키리의 잔으로서 각성하여 깊은 어둠 속에 빠지고 말았다. 그런 사쿠라를 지키겠다고 맹세한 소년, 에미야 시로는 토오사카 린과 함께 사쿠라를 어둠 속에서 구하고 일그러진 '성배전쟁'을 끝내기 위해 자신의 몸을 돌보지 않고 가혹한 싸움에 몸을 던진다. 소년의 소망은 소녀에게 닿을 것인가. 끝을 향해 달려가는 '성배전쟁' 최후의 싸움이 드디어 시작된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eKPSnszx2OvEVlJSwk2Zsjc6Ir0.jpg",
+			"genres": [
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 723072,
+			"adult": false,
+			"title": "호스트: 접속금지",
+			"release_date": "2020-11-27",
+			"popularity": 108.16,
+			"vote_count": 1,
+			"vote_average": 10,
+			"overview": "팬데믹으로 자가격리 중인 친구들이 모인 화상회의 방에 낯선 존재가 입장하고 불가사의한 일들이 벌어지는 현실감 100% 리얼호러",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5I1wahZMNoBNAZktAM8OKf6TviO.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 587792,
+			"adult": false,
+			"title": "팜 스프링스",
+			"release_date": "2020-07-10",
+			"popularity": 69.785,
+			"vote_count": 720,
+			"vote_average": 7.5,
+			"overview": "팜 스프링스에서 열리는 결혼식에서 온 만사 태평 나일스와 신부 들러리 사라. 둘은 처음 본 그 순간부터 서로에게 반하며 급격히 사랑에 빠집니다. 피로연에서 몰래 빠져 나온 둘은 별로 으슥하지 않은 해변에서 만리장성을 쌓으려는 바로 그 순간, 알수없는 자가 쏜 화살에 맞고 쫓기는 신세가 되는데... 이젠 죽는구나 하는 그 순간, 둘은 그날 아침으로 타임루프하게 되는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/yf5IuMW6GHghu39kxA0oFx7Bxmj.jpg",
+			"genres": [
+				35,
+				10749,
+				14,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 412546,
+			"adult": false,
+			"title": "앤트럼: 가장 치명적인 영화",
+			"release_date": "2020-10-23",
+			"popularity": 85.551,
+			"vote_count": 35,
+			"vote_average": 5.5,
+			"overview": "입에 담지 못할 비극이 서린 ‘70년대의 저주받은 영화 한 편이 관객에게 소개된다. 이 영화를 상영했던 부다페스트의 극장은 불타고, 이 영화를 상영했던 영화제의 프로그래머들의 의문스러운 죽음을 당했다. 그로부터 40년 후, 이 영화는 완전히 복원된 버전으로 다시 모습을 드러낸다; 복원된 영화에서는 한 소년과 그의 누나가 사랑하는 개를 마법으로 되살리기를 바라며 숲 속의 성스러운 장소로 찾아 들어간다. 하지만, 그들은 곧 금지된 의식을 행하는 것이 순수한 악, 지상의 지옥을 여는 것임을 알게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/20de4Rcmy4B0L5zyOc3Nc5F7c0D.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 659986,
+			"adult": false,
+			"title": "디 오너스",
+			"release_date": "2020-08-27",
+			"popularity": 79.84,
+			"vote_count": 100,
+			"vote_average": 5.7,
+			"overview": "허긴스 박사의 집에 대형 금고가 있다는 테리의 말을 듣고, 네이슨과 가즈는 금고 안에 있을 현금을 훔치려고 계획한다.\r 테리, 네이슨 그리고 가즈는 차 안에서 허긴스 박사의 저택을 훔쳐보며, 리처드, 엘렌 부부가 집에서 나가기를 기다린다.\r 그때 자동차 소유자인 메리가 그들 앞에 나타나, 출근해야 되니 자동차를 돌려 달라고 네이슨에게 말한다. 네이슨은 메리에게 잠시만 기다려 달라고 부탁한 뒤, 테리, 가즈와 함께 아무도 없는 허긴스 박사의 집으로 들어간다.\r 하지만 지하실에 있는 다이얼 방식의 금고를 열지 못하던 그들은, 박사가 집에 오기를 기다렸다가 협박해서 비밀 번호를 알아내기로 계획을 변경한다.\r 그 후 애인 네이슨의 부탁에 따라 허긴스 박사의 집안까지 들어온 메리는, 임신했다고 테리에게 고백한다.\r 얼마 후, 네이슨 일행은 집으로 돌아온 리처드에게 비밀 번호를 달라고 협박하지만,\r 스타킹을 쓴 테리와 네이슨의 정체를 알고 있는 리처드 박사는 쉽게 입을 열지 않는다.\r 가즈는 리처드가 비밀 번호를 말하지 않으면 엘렌의 손가락을 자르라고 네이슨에게 말하는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg",
+			"genres": [
+				53,
+				27,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 585244,
+			"adult": false,
+			"title": "아이 스틸 빌리브",
+			"release_date": "2020-03-12",
+			"popularity": 72.699,
+			"vote_count": 682,
+			"vote_average": 7.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/dqA2FCzz4OMmXLitKopzf476RVB.jpg",
+			"genres": [
+				18,
+				10402
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 535292,
+			"adult": false,
+			"title": "21 브릿지: 테러 셧다운",
+			"release_date": "2019-10-24",
+			"popularity": 74.049,
+			"vote_count": 1020,
+			"vote_average": 6.8,
+			"overview": "뉴욕 맨해튼 중심에서 벌어진 경찰 연쇄 살해 사건, 범인을 잡기 위해 베테랑 경찰 ‘데이비스’는 극단의 조치를 취한다. 주어진 시간은 단 3시간! 모든 수단과 방법을 동원해 놈들을 잡아야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXoIRpt5NxGzX2L65wpzeaC1QVL.jpg",
+			"genres": [
+				80,
+				28,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 520725,
+			"adult": false,
+			"title": "Le prince oublié",
+			"release_date": "2020-02-12",
+			"popularity": 78.378,
+			"vote_count": 176,
+			"vote_average": 5.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/6agXZJo5sMA837eM1hu2rqzG58c.jpg",
+			"genres": [
+				14,
+				12,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 616251,
+			"adult": false,
+			"title": "브로큰 하츠 갤러리",
+			"release_date": "2020-09-11",
+			"popularity": 90.058,
+			"vote_count": 49,
+			"vote_average": 7.1,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wGkr4r1e8nubmSNKJpv3HL6sFrA.jpg",
+			"genres": [
+				35,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 552687,
+			"adult": false,
+			"title": "오타쿠에게 사랑은 어려워",
+			"release_date": "2020-02-07",
+			"popularity": 75.35,
+			"vote_count": 23,
+			"vote_average": 6.7,
+			"overview": "평범한 회사원 나루미는 이직한 회사에서 소꿉친구 히로타카와 재회한다. 잘생기고 일도 잘하는 히로타카는 사실 중증 게임 오타쿠이고, 나루미 역시 애니메이션에 푹 빠진 오타쿠! 오타쿠인 것을 숨겨온 나루미는 히로타카 앞에서만 본 모습을 드러내고 히로타카의 제안으로 둘은 아슬아슬한 초보 연애를 시작한다. 그러나 연애 부적합자인 오타쿠들의 연애는 생각보다 쉽지 않은데….",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ilkuxoxPFKKRjUU7VGYvmiGQGdF.jpg",
+			"genres": [
+				35,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 471707,
+			"adult": false,
+			"title": "문신을 한 신부님",
+			"release_date": "2020-01-09",
+			"popularity": 62.353,
+			"vote_count": 183,
+			"vote_average": 7.8,
+			"overview": "신부를 꿈꾸지만 신부가 될 수 없는 20살 청년 ‘다니엘’. 소년원을 출소하게 된 그는 존경하는 신부 ‘토마시’의 도움으로 어느 마을의 목공소에 일자리를 얻게 된다. 그러나 뜻밖에도 소년원에서 훔친 사제복으로 인해 그는 마을 성당의 주임 신부 자리를 대행하게 되고, 예상을 뛰어넘는 그의 파격적인 행동은 큰 사고를 겪고 트라우마에 시달리고 있던 마을 사람들에게 믿음을 주게 된다. 그러나 ‘다니엘’은 믿음 뒤에 숨겨진 마을 사람들의 두 얼굴을 마주하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fwvtOHx5Mtvdha9qgbP8Ipf834w.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 9552,
+			"adult": false,
+			"title": "엑소시스트",
+			"release_date": "1973-05-31",
+			"popularity": 58.323,
+			"vote_count": 5229,
+			"vote_average": 7.7,
+			"overview": "노신부 메린(막스 본 시도우 분)은 이라크 북부에서 고분을 발굴하다 이상한 조각을 발견한다. 악마를 상징하는 그 조각에 노신부는 불안해 한다. 한편, 미국 조지타운에 사는 인기 여배우 크리스 멕네일(엘런 번스타인 )는 어느 날 밤 딸 레건(린다 블레어)의 방에서 이상한 소리를 듣고 쥐가 있는 것 같다며 운전 기사 칼(루돌프 쉰들러)에게 쥐덫을 놓도록 한다. 이어 딸 레건에게서 이상한 증세가 나타나기 시작하자 크리스는 레건을 데리고 병원을 전전하지만 병명조차 알아내지 못한 채 증세는 점점 악화된다. 그 와중에 크리스의 애인이 레건을 간호하던 중 변사체로 발견되는가 하면 조그맣고 귀엽던 레건의 얼굴이 무섭고 흉측한 악령의 모습으로 변하며 \"그리스도가 나를 범하고 있다\"라고 외치며 자해를 하는 사건이 연이어 벌어진다. 크리스는 지푸라기라도 잡는 심정으로 젊은 카라스 신부(제이슨 밀러)를 찾아가 악마를 내쫓는 엑소시즘 의식을 부탁한다. 결국 카라스 신부는 엑소시즘의 경험이 있는 노신부 메린에게 도움을 청하고 둘은 레건에게서 악령을 몰아내는 의식을 집행하기에 이른다. 그러나 악령은 쉽게 물러나지 않고, 악마와 메린 신부의 처절한 사투가 시작되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1Y0h6vedMbWPJNzqBnRkik16MO4.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 550738,
+			"adult": false,
+			"title": "스파이즈",
+			"release_date": "2020-01-11",
+			"popularity": 60.777,
+			"vote_count": 144,
+			"vote_average": 7.9,
+			"overview": "고도의 훈련을 받은 스페셜 에이전트 블라디미르는 임무 수행 중 실수로 인해 좌천을 당한다. 하지만 정체 모를 침입자들의 습격을 받게 된 후, 그들의 목적이 지구 생명체의 모든 종을 말살시키려는 것이라는 첩보를 입수한 블라디미르는 다시 현장으로 복귀하게 되는데…. 과연 지구의 모든 종을 말살시키려는 음모를 저지하고 지구를 구할 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/3A6lK5kqsTdyj3xUjwfwYrvawYT.jpg",
+			"genres": [
+				28,
+				12,
+				16,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 573699,
+			"adult": false,
+			"title": "백사 : 인연의 시작",
+			"release_date": "2019-01-11",
+			"popularity": 55.108,
+			"vote_count": 164,
+			"vote_average": 7.7,
+			"overview": "당 말기, 국사(国师)는 백성들에게 대량으로 뱀을 잡아들이라는 명령을 내린다. 이 후 국사를 죽이려던 백사(白蛇) 샤오바이는 뜻밖에 기억을 잃고 소년 아쉔에게 구해지게 되고, 샤오바이의 기억을 찾는 걸 도와주기 위해 두 사람은 모험의 길에 나서게 된다. 함께 하며 서로에게 감정이 생기게 되지만 뱀 요괴라는 샤오바이의 신분이 점차 드러나게 되고, 한편으론 국사(国师)와 뱀족간은 피할 수 없는 대전이 벌어지려하며 두 사람의 사랑에도 거대한 난관이 닥쳐오게 되는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bJSL1U3vtrJFbUC5TVDSZ8Ztooo.jpg",
+			"genres": [
+				10749,
+				16,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 480434,
+			"adult": false,
+			"title": "드림랜드",
+			"release_date": "2020-11-13",
+			"popularity": 59.001,
+			"vote_count": 8,
+			"vote_average": 7.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/v8ax79K6TZEnMqSS5ePrNCnrK8R.jpg",
+			"genres": [
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 378112,
+			"adult": false,
+			"title": "빅 위시",
+			"release_date": "2019-10-24",
+			"popularity": 60.032,
+			"vote_count": 75,
+			"vote_average": 7,
+			"overview": "일년에 딱 한번, 산 사람들이 그리운 사람을 만날 수 있는 ‘죽은자의 날’ 부모님을 찾고 싶은 ‘코코’도 제단을 만들지만 왜인지 할머니는 ‘코코’가 부모님을 찾지 못하게 한다.  할머니를 이해할 수 없는 ‘코코’는 부모님을 찾기 위해 금지 된 ‘비밀의 성’으로 모험을 떠나고, 그 곳에서 부모님의 비밀을 알고 있는 사악한 교수 ‘몰레트’를 만나는데… 놀랍고 신비로운 모험이 기다리고 있는 죽은자들의 세상! 과연 ‘코코’는 그리운 부모님을 만날 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/557NpM8FzVu1OiS0DwK8jowYCKb.jpg",
+			"genres": [
+				16,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 610201,
+			"adult": false,
+			"title": "더 페일 도어",
+			"release_date": "2020-08-21",
+			"popularity": 56.562,
+			"vote_count": 36,
+			"vote_average": 6.1,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/jkAZb9jteax1XRnEFlCU9Oer1YJ.jpg",
+			"genres": [
+				27,
+				37
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 861,
+			"adult": false,
+			"title": "토탈 리콜",
+			"release_date": "1990-06-01",
+			"popularity": 62.424,
+			"vote_count": 3745,
+			"vote_average": 7.2,
+			"overview": "서기 2084년. 어느 신도시에서 광산일을 하고 사는 퀘이드(아놀드 슈왈젠에거)는 미모의 아내 로리(샤론 스톤)와 행복하게 살아가지만 밤마다 이상한 꿈을 꾸게 된다. 한 번도 가본 적이 없는 화성에서 이름도 알 수 없는 갈색머리 여자와 행복하게 살고 있는 것이 자꾸 꿈으로 나타나자 퀘이드는 리콜이라는 여행사를 찾아간다. 이곳은 싼값으로 우주 여행을 다녀온 것처럼 뇌 속에 기억을 이식시켜줌으로써 욕구를 충족시켜주는 곳. 이식을 받던 퀘이드는 커다란 충격에서 깨어나 놀라운 사실들을 알게 되는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5gDoFRRYMQnqBmMdUGgTCOO8OOU.jpg",
+			"genres": [
+				28,
+				12,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 514921,
+			"adult": false,
+			"title": "에어로너츠",
+			"release_date": "2019-11-04",
+			"popularity": 54.362,
+			"vote_count": 614,
+			"vote_average": 6.9,
+			"overview": "19세기 런던, 예측불허의 하늘을 이해하고 싶은 기상학자 '제임스'와 가장 높은 하늘을 만나고 싶은 열기구 조종사 '어밀리아'. 날씨를 최초로 예측하고 하늘의 최고 높이에 다다르기 위해 팀을 이룬 그들은 열기구 '매머드'를 타고 일생일대의 모험을 시작하게 되는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/yStsRBRAiCCEfIK35VJs4zDXb1b.jpg",
+			"genres": [
+				12,
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 550231,
+			"adult": false,
+			"title": "더 시크릿: 데어 투 드림",
+			"release_date": "2020-04-16",
+			"popularity": 58.177,
+			"vote_count": 136,
+			"vote_average": 7.9,
+			"overview": "5년 전 남편 맷 웰스가 비행기 사고로 세상을 떠난 뒤, 미란다는 15살 딸 미시, 아들 그레그 그리고 막내딸 베시를 홀로 키우며 살고 있다. 미란다는 터커 가족이 소유하고 있는 식당 '미든도프스'의 운영을 도와주며, 생계를 유지하지만 엄청난 빚을 지고 재정난에 시달리고 있다.열대 폭풍 헤이즐이 다가오고 있던 어느 날, 내슈빌의 밴더빌트 대학 공학 교수인 브레이 존슨이 뉴올리언스에 온다.그는 '메종 드 빌' 호텔에 체크인을 한 후 미란다의 집을 찾아간다.아들 그레그만 집에 있어 서류를 전달하지 못하고 가던 브레이는, 니시와 베시를 태우고 귀가하던 미란다의 차에 우연히 부딪힌다.떨어진 미란다의 차 앞 범퍼를 수리해 주고 미란다의 집을 나선 브레이는 전달하려던 서류를 우편함에 넣어 놓고 호텔로 돌아간다.얼마 후 강력한 허리케인으로 변한 헤이즐로 인해 미란다의 집 지붕이 파손되고, 서류가 잘 전달되었는지 확인하기 위해 미란다의 집을 찾은 브레이는 파손된 지붕을 직접 고쳐 준다.  그 후 미시의 16살 생일 파티에 초대받은 브레이는, 그곳에서 미란다 가족과 즐거운 시간을 보낸다.  하지만 시어머니 보비가 주는 신문 기사를 본 미란다는, 브레이가 남편의 발명 특허를 훔친 것으로 오해하게 되는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5mCqEeBA0MW7H6akFrFQXJu68rU.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 660637,
+			"adult": false,
+			"title": "El Baile de los 41",
+			"release_date": "2020-11-19",
+			"popularity": 55.262,
+			"vote_count": 2,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/duYGwz5wLfd2Ul5NL3WYa34JWvY.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 637920,
+			"adult": false,
+			"title": "7번방의 기적",
+			"release_date": "2019-10-10",
+			"popularity": 54.432,
+			"vote_count": 3329,
+			"vote_average": 8.3,
+			"overview": "교도소 7번 방. 지능이 예닐곱 살 수준인 남자가 이곳에 들어왔다. 아동 살해 누명을 쓰고 사형을 기다리지만 그에겐 아끼는 딸이 있다. 감방 동료들이 준비한 특별 선물로 딸과 재회한 남자. 하지만 계속 함께하려면 무죄를 밝혀야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sOfUbzu6OUL5cscGODPdpHn9C1g.jpg",
+			"genres": [
+				18,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 694,
+			"adult": false,
+			"title": "샤이닝",
+			"release_date": "1980-05-23",
+			"popularity": 44.205,
+			"vote_count": 11998,
+			"vote_average": 8.2,
+			"overview": "소설가인 잭 토랜스는 콜로라도 산맥에 있는 오버룩 호텔의 관리인으로 취직한다. 다음 시즌 준비를 하는 이곳은 겨울 동안 폐쇄되기 때문에 토랜스의 가족들만 호텔에 머물게 된다. 갑자기 몰아친 폭설로 잭과 아내 웬디와 아들과 함께 호텔에 고립되고, 투시와 텔레파시 능력이 있는 잭의 아들 대니는 호텔에 유령이 있으며 유령들이 천천히 아버지를 미치게 하고 있음을 알게 된다. 잭은 과거에 스스로 자신의 아내와 두 딸을 죽인 이곳의 예전 관리인 그레이디의 유령을 만난다. 과거에 있었던 살인사건의 악령에 휘말린 잭은 호텔을 공포의 도가니로 몰아가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/vzc4lvpjaZrrfxsnqmhURm37gmB.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 650747,
+			"adult": false,
+			"title": "Historias lamentables",
+			"release_date": "2020-11-19",
+			"popularity": 64.964,
+			"vote_count": 11,
+			"vote_average": 6.9,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/snFldk9WQJvxlcYtlRBj36oQcEZ.jpg",
+			"genres": [
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 716799,
+			"adult": false,
+			"title": "461개의 도시락",
+			"release_date": "2020-11-06",
+			"popularity": 43.201,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "카즈키는 고등학생 아들을 위해 3년 동안 도시락을 쌌다. 461개의 도시락을 만든 카즈키는 시간을 즐겁게 만들어 준 아들에게 오히려 감사를 전한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/s88UCHnDNRbVduGA1p6Vp8hsgzb.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 604822,
+			"adult": false,
+			"title": "뱅가드",
+			"release_date": "2020-09-30",
+			"popularity": 45.27,
+			"vote_count": 6,
+			"vote_average": 7.3,
+			"overview": "용병 조직에 납치된 사업가 가족을 구하기 위해 사투를 벌이는 뱅가드 대원의 일화를 다룬 액션 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/quqEuH1fhC3SbhJx00hN5lDNaEF.jpg",
+			"genres": [
+				28,
+				12,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 661950,
+			"adult": false,
+			"title": "얼론",
+			"release_date": "2020-11-18",
+			"popularity": 33.584,
+			"vote_count": 19,
+			"vote_average": 6.1,
+			"overview": "도시를 초토화시킨 원인불명 바이러스를 피해 혼자 집안에 고립된 에이든. 바깥세상과 소통할 수 있는 방법이 점차 줄어들자, 에이든은 극심한 외로움에 지쳐간다. 설상가상으로 폭력적으로 변한 이웃들이 집 안까지 침입하기에 이르고, 에이든은 해서는 안 될 행동에 나서는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/crYkMh88EvXOBj1zs03lDX5GRKS.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 617786,
+			"adult": false,
+			"title": "어린 양",
+			"release_date": "2020-04-03",
+			"popularity": 44.237,
+			"vote_count": 76,
+			"vote_average": 6.3,
+			"overview": "문명과 동떨어진 깊은 숲 속에 위치한 어느 작은 공동체. 이곳은 사실 단 한 명의 남성 지도자와 다수의 여성들로 이루어진 사이비 종교 집단이다. ‘목자’의 가르침과 지시를 맹목적으로 따르는 ‘아내’들과 ‘딸’들 사이에서 셀라는 점차 이곳이 이상하다는 사실을 깨닫는다. 그리고 다소 잔혹한 결과가 따르더라도 자신의 의지를 밀어붙이려 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ognWoVeoB6IhrPAFxTe7PUifYXU.jpg",
+			"genres": [
+				27,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 728754,
+			"adult": false,
+			"title": "STAND BY ME ドラえもん 2",
+			"release_date": "2020-11-20",
+			"popularity": 36.352,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/f1mdybJTGN2aNgJNTcrn4nODtFW.jpg",
+			"genres": [
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 680601,
+			"adult": false,
+			"title": "Up From the Streets - New Orleans: The City of Music",
+			"release_date": "2020-11-19",
+			"popularity": 24.04,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fc8wE4F70zl3Kp0Ob7MmD05rm4q.jpg",
+			"genres": []
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 622977,
+			"adult": false,
+			"title": "라스트 베르메르",
+			"release_date": "2020-11-20",
+			"popularity": 32.499,
+			"vote_count": 1,
+			"vote_average": 6,
+			"overview": "조셉 필러(클래스 방)은 군인이자 네덜란드 레지스탕스의 멤버이다. 그는 똑똑한 조수(비키 크립스)와 도난된 미술품들을 조사하면서 네덜란드 화가인 한 판 미게렌(가이 피어스)가 나치에게 Vermeer 그림을 팔았다는 놀랄만한 사실을 들여다본다. 많은 증거에도 불구하고 필러는 자신의 무죄를 확신하며 신비한 과거를 가진 한 남자의 삶을 구하기 위해 어울릴 것 같지 않은 입장에 서게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/oKkhCzi5o28C3Jr2cFvUh2FGhpt.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 529485,
+			"adult": false,
+			"title": "더 웨이 백",
+			"release_date": "2020-03-05",
+			"popularity": 40.386,
+			"vote_count": 407,
+			"vote_average": 6.7,
+			"overview": "스타 농구선수였던 잭(벤 에플랙)은 알코올 중독으로 나락에 떨어지지만, 농구코치 자리를 제안받고 다시금 재기를 꿈꾸게 된다. \"어카운턴트\" 이후 게빈 오코너 감독의 4년만의 신작.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ylPnfaphW3FrLBUVwAREVtiL9My.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 62,
+			"adult": false,
+			"title": "2001 스페이스 오디세이",
+			"release_date": "1968-04-09",
+			"popularity": 30.803,
+			"vote_count": 7831,
+			"vote_average": 8.1,
+			"overview": "인류에게 문명의 지혜를 가르쳐 준 검은 돌기둥의 정체를 밝히기 위해서 디스커버리호의 선장 보우만(케어 둘리아)과 승무원 풀(게리 룩우드)는 목성을 향해서 날아간다. 하지만 평온하던 디스커버리호에 갑자기 재난이 찾아온다. 우주선 내부에서 일어난 재난은 컴퓨터 할(더글러스 레인)이 반란을 일으킨 것. 할은 풀을 우주선 밖으로 던져버리고, 보우만까지도 모선 밖으로 끌어내지만 그는 필사의 노력으로 할을 제압한다. 보우만은 마침내 목성 궤도에서 문제의 검은 돌기둥을 발견하지만, 그 순간 우주의 급류에 휘말리게 된다. 보우만은 지구로의 귀환을 위해 노력하고, 신비한 시간의 흐름을 경험하는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/aBS8uAcSkkd4SfRoBlepfMNFs87.jpg",
+			"genres": [
+				878,
+				9648,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 527400,
+			"adult": false,
+			"title": "컴 어웨이",
+			"release_date": "2020-11-12",
+			"popularity": 37.942,
+			"vote_count": 10,
+			"vote_average": 6.1,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/vwa0DgR2tHMouIDTJWje2k7Pp30.jpg",
+			"genres": [
+				14,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 585077,
+			"adult": false,
+			"title": "해수의 아이",
+			"release_date": "2019-06-07",
+			"popularity": 44.295,
+			"vote_count": 152,
+			"vote_average": 7.2,
+			"overview": "여름방학, 소녀 루카는 기묘한 출생의 비밀을 지닌 두 소년 우미(海)와 소라(空)를 우연히 만나게 된다.  우미와 소라는 바다 속에서 ‘발견된’ 아이들이었다. 하늘을 날듯 유영하는 그들에게 매료된 루카. 하지만 그들에게 관심을 갖은 어른들의 이해는 복잡하게 얽혀만 간다. 한편 세계 도처의 수족관에서는 물고기가 ‘사라지는’ 불가사의한 현상이 일어나고 있었다. 해양생물학자이자 아이들의 보호자인 짐 퀴잭은 이 사건에 어떤 방식으로든 우미와 소라가 연관되어 있음을 직감하고 뭔가에 쫓기듯 긴장감을 감추지 못한다.  과연 우미와 소라는 무엇인가? 그리고 그들에게는 어떤 일이 기다리고 있는가? 바다와 우주와 인간을 잇는 본격 해양 어드벤처의 서막이 열린다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mHENS5PJttYkExF1g1wJpSuut5A.jpg",
+			"genres": [
+				16,
+				14,
+				12,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 429422,
+			"adult": false,
+			"title": "폰조",
+			"release_date": "2020-07-10",
+			"popularity": 30.332,
+			"vote_count": 76,
+			"vote_average": 5.1,
+			"overview": "1920년대, 미국 시카고를 중심으로 강력 범죄조직을 이끈 전설적인 갱스터 알폰조 카포네. 수많은 폭력, 살인 사건을 배후에서 지휘했으며 정계 인사와 경찰까지 매수할 만큼 막강한 영향력을 가졌던 그는 1932년 탈세 혐의로 알카트라즈 교도소에 투옥되어 10여 년의 세월을 감옥에서 보낸 후 출소하게 된다. 드디어 숨겨둔 거액의 재산을 꺼낼 때가 왔지만, 치매를 앓게 된 그는 과거와 현재의 경계가 불분명한 채로 살아간다. 거금의 재산을 숨겨둔 장소를 제대로 기억하지 못하게 된 그를 FBI 요원들이 은밀히 이를 쫓기 시작하고, 주변에 대한 의심과 FBI의 계속되는 압박은 그를 옥죄어 온다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/xJbKUR9NNDiPZ1Lc7mKIlPVXTWi.jpg",
+			"genres": [
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 596161,
+			"adult": false,
+			"title": "렛 힘 고",
+			"release_date": "2020-11-05",
+			"popularity": 40.023,
+			"vote_count": 8,
+			"vote_average": 6.7,
+			"overview": "은퇴한 보안관 조지(케빈 코스트너)와 부인 마거릿(다이안 레인)이 죽은 아들의 아내 로나가 재혼한 위보이 일가로 인해 위험에 빠진 손자를 구하고자 고군분투하는 이야기",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1Uotit40CjYmJAkP9w4UxmoQjFJ.jpg",
+			"genres": [
+				18,
+				53,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 502033,
+			"adult": false,
+			"title": "사운드 오브 메탈",
+			"release_date": "2020-11-20",
+			"popularity": 21.177,
+			"vote_count": 3,
+			"vote_average": 7.3,
+			"overview": "여자친구 루와 2인조 메탈 밴드로 활동하고 있는 드러머 루빈은 과거 마약 중독의 영향으로 갑자기 청력을 잃게 된다. 루빈은 한 후원자로부터 청각 장애인 커뮤니티를 소개받지만 그곳에 들어가기를 거부하고, 결국 루가 그의 곁을 떠나면서 커뮤니티에 합류한다. 수화를 배우고, 커뮤니티 친구들의 도움을 받으며 루빈은 서서히 내적인 변화를 느끼게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/pVHgv6leYDCKrW4bdzA77NlMXXM.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 418879,
+			"adult": false,
+			"title": "커런트 워",
+			"release_date": "2019-07-18",
+			"popularity": 33.97,
+			"vote_count": 591,
+			"vote_average": 6.7,
+			"overview": "1,093개의 특허, 노력의 아이콘, 타고난 천재 발명가! 당신이 알던 에디슨은 더 이상 없다. 천재적 사업가이자 괴짜 승부사! 누구나 알지만 아무도 몰랐던 그의 진짜 전쟁이 시작된다! 쇼맨십의 천재 ‘에디슨’과 상상력의 천재 ‘테슬라’ 그리고 협상의 천재 ‘인설’과 비즈니스의 천재 ‘웨스팅하우스’까지. 4명의 천재, 3번의 격돌, 2개의 전류, 1명만이 역사가 된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/b4UcwvmpPy9YUEP6A3bNfh84XI8.jpg",
+			"genres": [
+				18,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 416153,
+			"adult": false,
+			"title": "Arctic Dogs",
+			"release_date": "2019-11-01",
+			"popularity": 35.942,
+			"vote_count": 74,
+			"vote_average": 6.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5YHjyjd2N0ZXcnGuB8G1nIa6h9t.jpg",
+			"genres": [
+				16,
+				12,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 546121,
+			"adult": false,
+			"title": "런",
+			"release_date": "2020-11-20",
+			"popularity": 44.68,
+			"vote_count": 38,
+			"vote_average": 7.7,
+			"overview": "태어날 때부터 장애 때문에 휠체어를 타고 외딴 집에서 엄마와 함께 살며 일상을 보내는 ‘클로이’. 딸을 사랑으로 돌보는 엄마 덕분에 힘들지만 매일을 긍정적으로 살아간다. 그러던 어느 날 식탁에 놓인 장바구니에서 하나의 물건을 발견하게 되고 믿었던 모든 일상이 흔들리기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/swMFgTEcDUz7MCvWfYIIiZ8PatU.jpg",
+			"genres": [
+				27,
+				9648,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 680593,
+			"adult": false,
+			"title": "더 다크 앤드 더 위키드",
+			"release_date": "2020-10-29",
+			"popularity": 27.98,
+			"vote_count": 23,
+			"vote_average": 5.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/y63Sa7F2YFQPDSNQpS45p1iwTJ1.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 575446,
+			"adult": false,
+			"title": "뉴 오더",
+			"release_date": "2020-10-22",
+			"popularity": 38.399,
+			"vote_count": 12,
+			"vote_average": 6.3,
+			"overview": "디스토피아적 미래의 멕시코에서 상류층 마리안은 늙고 병든 유모를 돕기 위해 결혼식을 앞두고 집을 나선다. 길거리 빈민층의 폭력 시위가 격렬해지자 군부는 쿠데타를 일으키고 마리안의 진심과 선의는 최악의 결과를 불러 일으킨다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/v6NodCMzqilx0Xw541P65WFnDfE.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 664297,
+			"adult": false,
+			"title": "그녀는 내일 죽는다",
+			"release_date": "2020-07-31",
+			"popularity": 35.764,
+			"vote_count": 29,
+			"vote_average": 6,
+			"overview": "에이미는 내일 죽을 거라는 사실을 알게 된다. 에이미는 두려움에 떨며 자신이 죽을 거라는 사실을 친구 제인에게 알린다. 어찌된 일인지 이번엔 죽음의 공포가 제인을 엄습한다. 집으로 돌아온 제인은 생일파티를 하고 있는 동생 부부와 친구들에게 자신이 내일 죽을 거라고 말한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zzFftAIaCkNDt8TL4yQN8RweLrw.jpg",
+			"genres": [
+				18,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 632632,
+			"adult": false,
+			"title": "극장판 기븐",
+			"release_date": "2020-08-22",
+			"popularity": 22.544,
+			"vote_count": 4,
+			"vote_average": 6.8,
+			"overview": "고등학생 우에노야마 리츠카는 사토 마후유의 노랫소리에 충격을 받아 나카야마 하루키, 카지 아키히코와 함께 활동하는 밴드에 보컬로 마후유를 영입한다. 마후유 영입 후 첫 공연을 성공시키면서 밴드 '기븐'의 활동을 시작하려는 와중에 마후유를 향한 마음을 자각한 리츠카는 그와 사귀기 시작한다. 한편, 하루키는 오랫동안 품고 있던 아키히코에 대한 호감이 커져만 가고 아키히코는 동거인인 바이올리니스트 우게츠와 관계를 계속 유지하려 하는데... 하루키와 아키히코, 우게츠의 사랑이 스크린에서 삐걱대며 움직인다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tVP1DjnljT1it6cAnn353cdVXDe.jpg",
+			"genres": [
+				16,
+				18,
+				10402
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 520172,
+			"adult": false,
+			"title": "해피스트 시즌",
+			"release_date": "2020-11-26",
+			"popularity": 30.683,
+			"vote_count": 2,
+			"vote_average": 7.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/vzec9kkOSE93tygyfOktedkeOQ.jpg",
+			"genres": [
+				10749,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 718356,
+			"adult": false,
+			"title": "Bela Shuru",
+			"release_date": "2020-11-20",
+			"popularity": 19.763,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wCvGG7h4Ws5D2sbdrEYUvhBKETU.jpg",
+			"genres": []
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 653615,
+			"adult": false,
+			"title": "부적",
+			"release_date": "2020-07-24",
+			"popularity": 32.292,
+			"vote_count": 57,
+			"vote_average": 5.6,
+			"overview": "런던에서 노숙자로 살아가는 토마스는 군인으로 복무하는 동안 생긴 외상후 스트레스 장애(PTSD)를 앓고 있다. 어느 날, 친절한 수녀 한 분이 토마스에게 외딴 곳에 있는 낡은 집에 상주하는 관리인 자리를 제안한다. 그 낡은 집에는 젊은 여성 마그다와 생사가 오락가락하는 마그다의 어머니가 고립된 채 살고 있다. 그 집에 정착하면서, 토머스는 마그다에게 로맨틱한 감정을 느끼게 되지만, 이 고립된 집에서 뭔가 불길한 일이 일어나고 있다는 느낌과, 그곳을 떠나기에는 이미 너무 늦었다는 생각 사이에서 갈팡질팡한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/51v67HYQtDkTiqHbIjq7tT8uCHP.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 738894,
+			"adult": false,
+			"title": "Dear Werner (Walking on Cinema)",
+			"release_date": "2020-11-20",
+			"popularity": 19.184,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sNAReoVe9zd3yb8OwW3SJFjGyBO.jpg",
+			"genres": [
+				99
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 537655,
+			"adult": false,
+			"title": "곰들이 몰려온다!",
+			"release_date": "2019-10-09",
+			"popularity": 26.367,
+			"vote_count": 90,
+			"vote_average": 7.4,
+			"overview": "곰 세계 왕의 아들 토니오가 시칠리아 산의 사냥꾼들에 의해 납치당했다. 엎친 데 덮친 격으로 부족이 기근에 처하자 왕은 사람들이 사는 땅을 침략하기로 결심한다. 군대와 마법사의 도움을 받아 왕은 결국 토니오를 발견하는 데 성공하지만, 곧 곰들은 인간 세상에서 살 수 없다는 것을 알게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/cihHyOx9ugAn1kMUovpm3yUQKa1.jpg",
+			"genres": [
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 539181,
+			"adult": false,
+			"title": "유물의 저주",
+			"release_date": "2020-07-03",
+			"popularity": 29.374,
+			"vote_count": 207,
+			"vote_average": 6.4,
+			"overview": "바쁘게 일하는 전문직 여성 케이는 엄마 에드나가 한동안 실종됐다는 연락을 받는다. 케이는 딸 샘과 함께 시골에 있는 고향집으로 향하지만, 흉가가 된 채 쑥대밭이 된 고향집은 아무도 없이 텅 비어있다. 며칠 후, 에드나는 결국 꾀죄죄한 몰골로 다시 나타나지만 그동안 자신이 어디에 있었는지 기억하지 못한다. 에드나가 치매를 앓고 있다는 것을 깨달은 케이와 샘은 고향집에 남아서 에드나를 돌보기로 하지만, 집에서는 온갖 이상한 일이 일어나고, 뭔가 사악한 기운이 온 가족을 겨냥한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg",
+			"genres": [
+				27,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 499338,
+			"adult": false,
+			"title": "아이 빌리브",
+			"release_date": "2017-11-07",
+			"popularity": 36.211,
+			"vote_count": 36,
+			"vote_average": 6.3,
+			"overview": "주인공인 브라이언은 부모님의 반대에도 매일 성경을 읽으며 예수님의 가르침에 따라 살아간다. 브라이언이 교회에서 다리 잃은 자를 일어서게 하고 눈이 먼 자를 위해 기도하자 하나님께서 기도에 응답하시고 그들을 고쳐주신다. 안티-크리스천이었던 브라이언 부모님과 브라이언을 시기 질투하던 사람들도 눈 앞에서 기도의 힘을 보게 되고 신앙을 가지게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/5gN7jD0GDMguD6ofifQYXFmvEgK.jpg",
+			"genres": [
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 567965,
+			"adult": false,
+			"title": "미스비헤이비어",
+			"release_date": "2020-03-12",
+			"popularity": 30.115,
+			"vote_count": 75,
+			"vote_average": 6.4,
+			"overview": "여자라는 이유만으로 학계에서 무시당하지만 실력으로 이기겠다는 워킹맘 대학생 '샐리' (키이라 나이틀리). 성적 대상화의 주범 미스월드에 한 방 먹일 작전을 짠 페미니스트 예술가 '조' (제시 버클리). 역사상 최초의 미스 그레나다로서 흑인 아이들에게 희망을 전하고 싶은 '제니퍼' (구구 바샤-로).  1970년, 달 착륙과 월드컵 결승보다 더 많은 1억 명이 지켜본 '미스월드'. 성적 대상화를 국민 스포츠로 만든 미스월드에 맞서 자신만의 스타일로 진정한 자유를 외친 여성들의 유쾌한 반란이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iDyVOdjTQJtPGqEAwx4ANfiKYse.jpg",
+			"genres": [
+				18,
+				36,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 595671,
+			"adult": false,
+			"title": "전혀아니다,별로아니다,가끔그렇다,항상그렇다",
+			"release_date": "2020-03-13",
+			"popularity": 27.318,
+			"vote_count": 107,
+			"vote_average": 7.1,
+			"overview": "펜실베니아 시골에 사는 어텀은 의도하지 않은 임신을 하게 되어 사촌 스카이라와 함께 의학적 도움을 구하기 위해 뉴욕으로 떠나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7yiSyQhhjTFphhfCUcn05tCQxyG.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 522772,
+			"adult": false,
+			"title": "Sk8r Grrl",
+			"release_date": "2020-11-22",
+			"popularity": 37.43,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/omMYAGZRtvTIObI1835JyemxHJr.jpg",
+			"genres": [
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 730596,
+			"adult": false,
+			"title": "베네볼렌스",
+			"release_date": "2020-11-20",
+			"popularity": 19.027,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mUO8HG5oRw0yu2d26VeKNqQQzRJ.jpg",
+			"genres": [
+				80,
+				18,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 430155,
+			"adult": false,
+			"title": "코마",
+			"release_date": "2019-11-19",
+			"popularity": 25.201,
+			"vote_count": 216,
+			"vote_average": 6.2,
+			"overview": "젊고 재능은 있지만 세상에 인정받지 못한 건축가 ‘빅터’는 갑작스러운 사고를 당한 후 잠에서 깨어난다. 어떤 과학적 논리로도 설명할 수 없는 중력, 물리 법칙을 무시한 건물들과 공간이 있는 이곳은 혼수상태에 빠진 자들만 올 수 있는 곳 ‘코마’라는 세계이다.  이곳에 있는 사람들은 ‘리퍼’라는 정체불명의 괴물에게 쫓겨 안전한 섬을 찾으러 떠나게 되고, 그 섬과 관련해서 엄청난 비밀이 드러나는데 과연 ‘빅터’는 혼수상태에서 현실세계로 빠져나올 수 있을까…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/d9jtAXtP1Hd2ckuHttCdRil3TZk.jpg",
+			"genres": [
+				14,
+				28,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.nowplaying",
+		"fields": {
+			"id": 9323,
+			"adult": false,
+			"title": "공각기동대",
+			"release_date": "1995-11-18",
+			"popularity": 31.847,
+			"vote_count": 1983,
+			"vote_average": 7.9,
+			"overview": "때는 서기 2029년, 아시아의 뉴포트라는 도시. 인간의 뇌도 통신 네트워크의 일부가 된 사회에서 가장 극악한 범죄는 고스트 해킹이다. 인간의 정체성을 규명하는 광의의 영혼을 뜻하는 고스트를 해킹해 타인의 기억 등을 조작하고 변경시키는 것. 인형사라 불리는 정체불명의 악명 높은 고스트 해커가 유럽에서 뉴포트로 주활동 무대를 옮겼다는 소식이 들린다. 이를 막기 위해 외교상 일어나는 국제범죄, 테러 등에 대해 정보수집과 감사를 행하는 정보기관 공안 6과와 쿠사나기 모토코 소령을 중심으로 한 공안 9과, 즉 공각기동대가 나선다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/qzCMXEwiH5ym4wBl9EwS8QtCzlN.jpg",
+			"genres": [
+				28,
+				16,
+				878
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 528085,
+			"adult": false,
+			"title": "2067",
+			"release_date": "2020-10-01",
+			"popularity": 1413.62,
+			"vote_count": 346,
+			"vote_average": 4.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+			"genres": [
+				878,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 400160,
+			"adult": false,
+			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
+			"release_date": "2020-08-14",
+			"popularity": 1273.047,
+			"vote_count": 1465,
+			"vote_average": 8.1,
+			"overview": "우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+			"genres": [
+				14,
+				16,
+				12,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741067,
+			"adult": false,
+			"title": "웰컴 투 서든 데쓰",
+			"release_date": "2020-09-29",
+			"popularity": 768.528,
+			"vote_count": 161,
+			"vote_average": 6.4,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg",
+			"genres": [
+				28,
+				53,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 497582,
+			"adult": false,
+			"title": "에놀라 홈즈",
+			"release_date": "2020-09-23",
+			"popularity": 651.288,
+			"vote_count": 2659,
+			"vote_average": 7.5,
+			"overview": "열여섯 생일을 맞은 셜록의 여동생, 에놀라 홈즈. 사라진 엄마를 찾아 런던으로 향한다. 명석한 두뇌의 대명사인 오빠까지 따돌리고, 위험에 빠진 귀족 청년의 미스터리와 엮이는데. 사건을 추적하며, 홈즈 가문답게 예리한 추리력이 폭발한다. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+			"genres": [
+				80,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 337401,
+			"adult": false,
+			"title": "뮬란",
+			"release_date": "2020-09-04",
+			"popularity": 749.345,
+			"vote_count": 2946,
+			"vote_average": 7.2,
+			"overview": "무예에 남다른 재능을 지닌 뮬란은 좋은 집안과 인연을 맺어 가문을 빛내길 바라는 부모님의 뜻에 따라 본연의 모습을 억누르고 성장한다. 어느 날, 북쪽 오랑캐들이 침입하자 황제는 징집령을 내리고 뮬란은 아픈 아버지를 대신해 가족들 몰래 전장에 나가기로 결심한다. 여자라는 게 발각되면 목숨을 잃을 수도 있는 상황 속에서 뮬란은 타고난 용기와 지혜로 역경을 이겨내며 전사로 성장한다. 마침내 잔인무도한 적장 보리 칸과 마녀 시아니앙을 마주하게 된 뮬란. 그녀는 위험에 빠진 동료와 가족을 구하고 진정한 전사로 거듭날 수 있을 것인가?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mQbxBKeRuAofS5p2w4mK7DqtS97.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741074,
+			"adult": false,
+			"title": "원스 어폰 어 스노우맨",
+			"release_date": "2020-10-23",
+			"popularity": 763.182,
+			"vote_count": 160,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 340102,
+			"adult": false,
+			"title": "뉴 뮤턴트",
+			"release_date": "2020-08-26",
+			"popularity": 680.214,
+			"vote_count": 767,
+			"vote_average": 6.3,
+			"overview": "십대의 돌연변이 레인과 일리, 샘, 로베르토는 비밀 시설에 수용되어 심리 상태를 감시 받는다. 이들이 사회에는 물론 스스로에게도 위험한 존재라고 생각하는 닥터 레예스는 이들에게 돌연변이 능력을 통제하는 방법을 가르쳐주고자 애쓴다. 어느 날, 대재앙이 덮친 마을에서 혼자 살아남은 대니가 이곳에 들어오며 끔찍한 일들이 벌어지기 시작하고, 자신들의 힘을 두려워하고 다룰 줄 몰랐던 십대 돌연변이들은 믿기지 않는 경험을 하며 자신들의 능력을 각성하기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bqZRy3tJjJIrA38FSdqJEufQ2Os.jpg",
+			"genres": [
+				28,
+				878,
+				27,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 694919,
+			"adult": false,
+			"title": "플레인 하이스트",
+			"release_date": "2020-09-29",
+			"popularity": 579.822,
+			"vote_count": 190,
+			"vote_average": 5.9,
+			"overview": "마지막 게임에서의 거액의 빚을 갚기 위해 ‘다리우스’ 밑에서 일하게 된 전직 도박꾼 ‘잭’은 전세계 극악무도한 범죄자들이 모여 베팅을 벌이는 ‘머니 플레인’에 탑승해 현금 수백만 달러를 탈취하고 가상 화폐 10억 달러를 해킹하는 미션을 성공시켜야 한다. 하지만 다리우스는 잭을 함정에 빠뜨리고 잭은 플랜B를 가동해 되갚아주려 하는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m9ZDoCzSbQ7SAOz2tcb1rt6bGG2.jpg",
+			"genres": [
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 618353,
+			"adult": false,
+			"title": "배트맨: 데스 인 더 패밀리",
+			"release_date": "2020-10-13",
+			"popularity": 596.463,
+			"vote_count": 72,
+			"vote_average": 7.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+			"genres": [
+				16,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 528085,
+			"adult": false,
+			"title": "2067",
+			"release_date": "2020-10-01",
+			"popularity": 1413.62,
+			"vote_count": 346,
+			"vote_average": 4.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+			"genres": [
+				878,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 400160,
+			"adult": false,
+			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
+			"release_date": "2020-08-14",
+			"popularity": 1273.047,
+			"vote_count": 1465,
+			"vote_average": 8.1,
+			"overview": "우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+			"genres": [
+				14,
+				16,
+				12,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741067,
+			"adult": false,
+			"title": "웰컴 투 서든 데쓰",
+			"release_date": "2020-09-29",
+			"popularity": 768.528,
+			"vote_count": 161,
+			"vote_average": 6.4,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg",
+			"genres": [
+				28,
+				53,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 497582,
+			"adult": false,
+			"title": "에놀라 홈즈",
+			"release_date": "2020-09-23",
+			"popularity": 651.288,
+			"vote_count": 2659,
+			"vote_average": 7.5,
+			"overview": "열여섯 생일을 맞은 셜록의 여동생, 에놀라 홈즈. 사라진 엄마를 찾아 런던으로 향한다. 명석한 두뇌의 대명사인 오빠까지 따돌리고, 위험에 빠진 귀족 청년의 미스터리와 엮이는데. 사건을 추적하며, 홈즈 가문답게 예리한 추리력이 폭발한다. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+			"genres": [
+				80,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 337401,
+			"adult": false,
+			"title": "뮬란",
+			"release_date": "2020-09-04",
+			"popularity": 749.345,
+			"vote_count": 2946,
+			"vote_average": 7.2,
+			"overview": "무예에 남다른 재능을 지닌 뮬란은 좋은 집안과 인연을 맺어 가문을 빛내길 바라는 부모님의 뜻에 따라 본연의 모습을 억누르고 성장한다. 어느 날, 북쪽 오랑캐들이 침입하자 황제는 징집령을 내리고 뮬란은 아픈 아버지를 대신해 가족들 몰래 전장에 나가기로 결심한다. 여자라는 게 발각되면 목숨을 잃을 수도 있는 상황 속에서 뮬란은 타고난 용기와 지혜로 역경을 이겨내며 전사로 성장한다. 마침내 잔인무도한 적장 보리 칸과 마녀 시아니앙을 마주하게 된 뮬란. 그녀는 위험에 빠진 동료와 가족을 구하고 진정한 전사로 거듭날 수 있을 것인가?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mQbxBKeRuAofS5p2w4mK7DqtS97.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741074,
+			"adult": false,
+			"title": "원스 어폰 어 스노우맨",
+			"release_date": "2020-10-23",
+			"popularity": 763.182,
+			"vote_count": 160,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 340102,
+			"adult": false,
+			"title": "뉴 뮤턴트",
+			"release_date": "2020-08-26",
+			"popularity": 680.214,
+			"vote_count": 767,
+			"vote_average": 6.3,
+			"overview": "십대의 돌연변이 레인과 일리, 샘, 로베르토는 비밀 시설에 수용되어 심리 상태를 감시 받는다. 이들이 사회에는 물론 스스로에게도 위험한 존재라고 생각하는 닥터 레예스는 이들에게 돌연변이 능력을 통제하는 방법을 가르쳐주고자 애쓴다. 어느 날, 대재앙이 덮친 마을에서 혼자 살아남은 대니가 이곳에 들어오며 끔찍한 일들이 벌어지기 시작하고, 자신들의 힘을 두려워하고 다룰 줄 몰랐던 십대 돌연변이들은 믿기지 않는 경험을 하며 자신들의 능력을 각성하기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bqZRy3tJjJIrA38FSdqJEufQ2Os.jpg",
+			"genres": [
+				28,
+				878,
+				27,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 694919,
+			"adult": false,
+			"title": "플레인 하이스트",
+			"release_date": "2020-09-29",
+			"popularity": 579.822,
+			"vote_count": 190,
+			"vote_average": 5.9,
+			"overview": "마지막 게임에서의 거액의 빚을 갚기 위해 ‘다리우스’ 밑에서 일하게 된 전직 도박꾼 ‘잭’은 전세계 극악무도한 범죄자들이 모여 베팅을 벌이는 ‘머니 플레인’에 탑승해 현금 수백만 달러를 탈취하고 가상 화폐 10억 달러를 해킹하는 미션을 성공시켜야 한다. 하지만 다리우스는 잭을 함정에 빠뜨리고 잭은 플랜B를 가동해 되갚아주려 하는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m9ZDoCzSbQ7SAOz2tcb1rt6bGG2.jpg",
+			"genres": [
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 618353,
+			"adult": false,
+			"title": "배트맨: 데스 인 더 패밀리",
+			"release_date": "2020-10-13",
+			"popularity": 596.463,
+			"vote_count": 72,
+			"vote_average": 7.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+			"genres": [
+				16,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 528085,
+			"adult": false,
+			"title": "2067",
+			"release_date": "2020-10-01",
+			"popularity": 1413.62,
+			"vote_count": 346,
+			"vote_average": 4.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+			"genres": [
+				878,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 400160,
+			"adult": false,
+			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
+			"release_date": "2020-08-14",
+			"popularity": 1273.047,
+			"vote_count": 1465,
+			"vote_average": 8.1,
+			"overview": "우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+			"genres": [
+				14,
+				16,
+				12,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741067,
+			"adult": false,
+			"title": "웰컴 투 서든 데쓰",
+			"release_date": "2020-09-29",
+			"popularity": 768.528,
+			"vote_count": 161,
+			"vote_average": 6.4,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg",
+			"genres": [
+				28,
+				53,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 497582,
+			"adult": false,
+			"title": "에놀라 홈즈",
+			"release_date": "2020-09-23",
+			"popularity": 651.288,
+			"vote_count": 2659,
+			"vote_average": 7.5,
+			"overview": "열여섯 생일을 맞은 셜록의 여동생, 에놀라 홈즈. 사라진 엄마를 찾아 런던으로 향한다. 명석한 두뇌의 대명사인 오빠까지 따돌리고, 위험에 빠진 귀족 청년의 미스터리와 엮이는데. 사건을 추적하며, 홈즈 가문답게 예리한 추리력이 폭발한다. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+			"genres": [
+				80,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 337401,
+			"adult": false,
+			"title": "뮬란",
+			"release_date": "2020-09-04",
+			"popularity": 749.345,
+			"vote_count": 2946,
+			"vote_average": 7.2,
+			"overview": "무예에 남다른 재능을 지닌 뮬란은 좋은 집안과 인연을 맺어 가문을 빛내길 바라는 부모님의 뜻에 따라 본연의 모습을 억누르고 성장한다. 어느 날, 북쪽 오랑캐들이 침입하자 황제는 징집령을 내리고 뮬란은 아픈 아버지를 대신해 가족들 몰래 전장에 나가기로 결심한다. 여자라는 게 발각되면 목숨을 잃을 수도 있는 상황 속에서 뮬란은 타고난 용기와 지혜로 역경을 이겨내며 전사로 성장한다. 마침내 잔인무도한 적장 보리 칸과 마녀 시아니앙을 마주하게 된 뮬란. 그녀는 위험에 빠진 동료와 가족을 구하고 진정한 전사로 거듭날 수 있을 것인가?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mQbxBKeRuAofS5p2w4mK7DqtS97.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741074,
+			"adult": false,
+			"title": "원스 어폰 어 스노우맨",
+			"release_date": "2020-10-23",
+			"popularity": 763.182,
+			"vote_count": 160,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 340102,
+			"adult": false,
+			"title": "뉴 뮤턴트",
+			"release_date": "2020-08-26",
+			"popularity": 680.214,
+			"vote_count": 767,
+			"vote_average": 6.3,
+			"overview": "십대의 돌연변이 레인과 일리, 샘, 로베르토는 비밀 시설에 수용되어 심리 상태를 감시 받는다. 이들이 사회에는 물론 스스로에게도 위험한 존재라고 생각하는 닥터 레예스는 이들에게 돌연변이 능력을 통제하는 방법을 가르쳐주고자 애쓴다. 어느 날, 대재앙이 덮친 마을에서 혼자 살아남은 대니가 이곳에 들어오며 끔찍한 일들이 벌어지기 시작하고, 자신들의 힘을 두려워하고 다룰 줄 몰랐던 십대 돌연변이들은 믿기지 않는 경험을 하며 자신들의 능력을 각성하기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bqZRy3tJjJIrA38FSdqJEufQ2Os.jpg",
+			"genres": [
+				28,
+				878,
+				27,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 694919,
+			"adult": false,
+			"title": "플레인 하이스트",
+			"release_date": "2020-09-29",
+			"popularity": 579.822,
+			"vote_count": 190,
+			"vote_average": 5.9,
+			"overview": "마지막 게임에서의 거액의 빚을 갚기 위해 ‘다리우스’ 밑에서 일하게 된 전직 도박꾼 ‘잭’은 전세계 극악무도한 범죄자들이 모여 베팅을 벌이는 ‘머니 플레인’에 탑승해 현금 수백만 달러를 탈취하고 가상 화폐 10억 달러를 해킹하는 미션을 성공시켜야 한다. 하지만 다리우스는 잭을 함정에 빠뜨리고 잭은 플랜B를 가동해 되갚아주려 하는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m9ZDoCzSbQ7SAOz2tcb1rt6bGG2.jpg",
+			"genres": [
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 618353,
+			"adult": false,
+			"title": "배트맨: 데스 인 더 패밀리",
+			"release_date": "2020-10-13",
+			"popularity": 596.463,
+			"vote_count": 72,
+			"vote_average": 7.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+			"genres": [
+				16,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 528085,
+			"adult": false,
+			"title": "2067",
+			"release_date": "2020-10-01",
+			"popularity": 1413.62,
+			"vote_count": 346,
+			"vote_average": 4.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+			"genres": [
+				878,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 400160,
+			"adult": false,
+			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
+			"release_date": "2020-08-14",
+			"popularity": 1273.047,
+			"vote_count": 1465,
+			"vote_average": 8.1,
+			"overview": "우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+			"genres": [
+				14,
+				16,
+				12,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741067,
+			"adult": false,
+			"title": "웰컴 투 서든 데쓰",
+			"release_date": "2020-09-29",
+			"popularity": 768.528,
+			"vote_count": 161,
+			"vote_average": 6.4,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg",
+			"genres": [
+				28,
+				53,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 497582,
+			"adult": false,
+			"title": "에놀라 홈즈",
+			"release_date": "2020-09-23",
+			"popularity": 651.288,
+			"vote_count": 2659,
+			"vote_average": 7.5,
+			"overview": "열여섯 생일을 맞은 셜록의 여동생, 에놀라 홈즈. 사라진 엄마를 찾아 런던으로 향한다. 명석한 두뇌의 대명사인 오빠까지 따돌리고, 위험에 빠진 귀족 청년의 미스터리와 엮이는데. 사건을 추적하며, 홈즈 가문답게 예리한 추리력이 폭발한다. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+			"genres": [
+				80,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 337401,
+			"adult": false,
+			"title": "뮬란",
+			"release_date": "2020-09-04",
+			"popularity": 749.345,
+			"vote_count": 2946,
+			"vote_average": 7.2,
+			"overview": "무예에 남다른 재능을 지닌 뮬란은 좋은 집안과 인연을 맺어 가문을 빛내길 바라는 부모님의 뜻에 따라 본연의 모습을 억누르고 성장한다. 어느 날, 북쪽 오랑캐들이 침입하자 황제는 징집령을 내리고 뮬란은 아픈 아버지를 대신해 가족들 몰래 전장에 나가기로 결심한다. 여자라는 게 발각되면 목숨을 잃을 수도 있는 상황 속에서 뮬란은 타고난 용기와 지혜로 역경을 이겨내며 전사로 성장한다. 마침내 잔인무도한 적장 보리 칸과 마녀 시아니앙을 마주하게 된 뮬란. 그녀는 위험에 빠진 동료와 가족을 구하고 진정한 전사로 거듭날 수 있을 것인가?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mQbxBKeRuAofS5p2w4mK7DqtS97.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741074,
+			"adult": false,
+			"title": "원스 어폰 어 스노우맨",
+			"release_date": "2020-10-23",
+			"popularity": 763.182,
+			"vote_count": 160,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 340102,
+			"adult": false,
+			"title": "뉴 뮤턴트",
+			"release_date": "2020-08-26",
+			"popularity": 680.214,
+			"vote_count": 767,
+			"vote_average": 6.3,
+			"overview": "십대의 돌연변이 레인과 일리, 샘, 로베르토는 비밀 시설에 수용되어 심리 상태를 감시 받는다. 이들이 사회에는 물론 스스로에게도 위험한 존재라고 생각하는 닥터 레예스는 이들에게 돌연변이 능력을 통제하는 방법을 가르쳐주고자 애쓴다. 어느 날, 대재앙이 덮친 마을에서 혼자 살아남은 대니가 이곳에 들어오며 끔찍한 일들이 벌어지기 시작하고, 자신들의 힘을 두려워하고 다룰 줄 몰랐던 십대 돌연변이들은 믿기지 않는 경험을 하며 자신들의 능력을 각성하기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bqZRy3tJjJIrA38FSdqJEufQ2Os.jpg",
+			"genres": [
+				28,
+				878,
+				27,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 694919,
+			"adult": false,
+			"title": "플레인 하이스트",
+			"release_date": "2020-09-29",
+			"popularity": 579.822,
+			"vote_count": 190,
+			"vote_average": 5.9,
+			"overview": "마지막 게임에서의 거액의 빚을 갚기 위해 ‘다리우스’ 밑에서 일하게 된 전직 도박꾼 ‘잭’은 전세계 극악무도한 범죄자들이 모여 베팅을 벌이는 ‘머니 플레인’에 탑승해 현금 수백만 달러를 탈취하고 가상 화폐 10억 달러를 해킹하는 미션을 성공시켜야 한다. 하지만 다리우스는 잭을 함정에 빠뜨리고 잭은 플랜B를 가동해 되갚아주려 하는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m9ZDoCzSbQ7SAOz2tcb1rt6bGG2.jpg",
+			"genres": [
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 618353,
+			"adult": false,
+			"title": "배트맨: 데스 인 더 패밀리",
+			"release_date": "2020-10-13",
+			"popularity": 596.463,
+			"vote_count": 72,
+			"vote_average": 7.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+			"genres": [
+				16,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 528085,
+			"adult": false,
+			"title": "2067",
+			"release_date": "2020-10-01",
+			"popularity": 1413.62,
+			"vote_count": 346,
+			"vote_average": 4.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+			"genres": [
+				878,
+				53,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 724989,
+			"adult": false,
+			"title": "하드 킬",
+			"release_date": "2020-10-23",
+			"popularity": 1246.497,
+			"vote_count": 156,
+			"vote_average": 5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 400160,
+			"adult": false,
+			"title": "스폰지밥 무비: 핑핑이 구출 대작전",
+			"release_date": "2020-08-14",
+			"popularity": 1273.047,
+			"vote_count": 1465,
+			"vote_average": 8.1,
+			"overview": "우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+			"genres": [
+				14,
+				16,
+				12,
+				35,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 671039,
+			"adult": false,
+			"title": "로그 시티",
+			"release_date": "2020-10-30",
+			"popularity": 1060.741,
+			"vote_count": 218,
+			"vote_average": 5.9,
+			"overview": "부패경찰과 마르세유의 조폭 사이의 문제로 위기의  경찰조직을 보호해야 한다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/hSpm2mMbkd0hLTRWBz0zolnLAyK.jpg",
+			"genres": [
+				53,
+				28,
+				18,
+				80
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741067,
+			"adult": false,
+			"title": "웰컴 투 서든 데쓰",
+			"release_date": "2020-09-29",
+			"popularity": 768.528,
+			"vote_count": 161,
+			"vote_average": 6.4,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg",
+			"genres": [
+				28,
+				53,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 613504,
+			"adult": false,
+			"title": "애프터: 그 후",
+			"release_date": "2020-09-02",
+			"popularity": 758.676,
+			"vote_count": 1969,
+			"vote_average": 7.3,
+			"overview": "\"너만의 테사는 더 이상 없어!\"  첫사랑 하딘이 자신과의 연애를 내기에 걸었다는 비밀을 알게 된 '테사'  둘은 헤어지지만 서로의 살결과 숨결을 끊지 못하며 아슬아슬한 썸을 이어간다. 이후 대학 졸업을 앞둔 취준생 테사는 대형 출판사의 인턴십에 합격하고  거친 하딘과는 180도 다른 젠틀한 직장 남사친 '트레버'를 만나게 된다. \"테사의 두 번째 남자를 만났다\" 런던으로 떠나기 전에 테사를 향한 진심을 전하고 싶었던 '하딘' 테사의 용서를 기다리며 과거의 잘못을 하나씩 고쳐나간다.  워크숍 파티에서 취한 테사의 연락에 하딘은 기대 반, 걱정 반 마음으로 결국 테사의 호텔 룸에 찾아가고, 샤워실에서 그녀석 '트레버'와 마주치는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/szItf1XDOY6u0ZeaQFPc3bi1SL0.jpg",
+			"genres": [
+				10749,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 497582,
+			"adult": false,
+			"title": "에놀라 홈즈",
+			"release_date": "2020-09-23",
+			"popularity": 651.288,
+			"vote_count": 2659,
+			"vote_average": 7.5,
+			"overview": "열여섯 생일을 맞은 셜록의 여동생, 에놀라 홈즈. 사라진 엄마를 찾아 런던으로 향한다. 명석한 두뇌의 대명사인 오빠까지 따돌리고, 위험에 빠진 귀족 청년의 미스터리와 엮이는데. 사건을 추적하며, 홈즈 가문답게 예리한 추리력이 폭발한다. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+			"genres": [
+				80,
+				18,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 337401,
+			"adult": false,
+			"title": "뮬란",
+			"release_date": "2020-09-04",
+			"popularity": 749.345,
+			"vote_count": 2946,
+			"vote_average": 7.2,
+			"overview": "무예에 남다른 재능을 지닌 뮬란은 좋은 집안과 인연을 맺어 가문을 빛내길 바라는 부모님의 뜻에 따라 본연의 모습을 억누르고 성장한다. 어느 날, 북쪽 오랑캐들이 침입하자 황제는 징집령을 내리고 뮬란은 아픈 아버지를 대신해 가족들 몰래 전장에 나가기로 결심한다. 여자라는 게 발각되면 목숨을 잃을 수도 있는 상황 속에서 뮬란은 타고난 용기와 지혜로 역경을 이겨내며 전사로 성장한다. 마침내 잔인무도한 적장 보리 칸과 마녀 시아니앙을 마주하게 된 뮬란. 그녀는 위험에 빠진 동료와 가족을 구하고 진정한 전사로 거듭날 수 있을 것인가?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mQbxBKeRuAofS5p2w4mK7DqtS97.jpg",
+			"genres": [
+				28,
+				12,
+				18,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 741074,
+			"adult": false,
+			"title": "원스 어폰 어 스노우맨",
+			"release_date": "2020-10-23",
+			"popularity": 763.182,
+			"vote_count": 160,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+			"genres": [
+				16,
+				10751,
+				35,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 340102,
+			"adult": false,
+			"title": "뉴 뮤턴트",
+			"release_date": "2020-08-26",
+			"popularity": 680.214,
+			"vote_count": 767,
+			"vote_average": 6.3,
+			"overview": "십대의 돌연변이 레인과 일리, 샘, 로베르토는 비밀 시설에 수용되어 심리 상태를 감시 받는다. 이들이 사회에는 물론 스스로에게도 위험한 존재라고 생각하는 닥터 레예스는 이들에게 돌연변이 능력을 통제하는 방법을 가르쳐주고자 애쓴다. 어느 날, 대재앙이 덮친 마을에서 혼자 살아남은 대니가 이곳에 들어오며 끔찍한 일들이 벌어지기 시작하고, 자신들의 힘을 두려워하고 다룰 줄 몰랐던 십대 돌연변이들은 믿기지 않는 경험을 하며 자신들의 능력을 각성하기 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/bqZRy3tJjJIrA38FSdqJEufQ2Os.jpg",
+			"genres": [
+				28,
+				878,
+				27,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 571384,
+			"adult": false,
+			"title": "컴 플레이",
+			"release_date": "2020-10-28",
+			"popularity": 725.668,
+			"vote_count": 49,
+			"vote_average": 6.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg",
+			"genres": [
+				18,
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 560050,
+			"adult": false,
+			"title": "오버 더 문",
+			"release_date": "2020-10-16",
+			"popularity": 649.178,
+			"vote_count": 443,
+			"vote_average": 7.7,
+			"overview": "믿는 사람에게만 펼쳐지는 세상 똑똑하고 호기심 넘치는 소녀 페이 페이, 엄마가 어린 시절 들려준 전설 속 달의 여신 항아 이야기를 늘 마음에 풀고 살아간다. 일찍 하늘나라로 간 엄마를 그리워하며 살아가던 페이 페이는 어느 날 항아의 전설이 지어낸 이야기일 뿐이라는 고모의 말에 울컥해, 항아의 존재를 증명하기 위해 달로 향하는 로켓을 만들기로 결심한다. 수많은 시행착오 끝에 로켓 만들기에 성공한 페이 페이, 예상치 못한 모험을 떠나게 된 소녀는 신기한 생명체로 가득한 기묘한 세계를 발견하게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zG6QJjd5feBZBl7zeKHDDlgL8FY.jpg",
+			"genres": [
+				16,
+				12,
+				10751,
+				14
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 624779,
+			"adult": false,
+			"title": "브이에프더블유",
+			"release_date": "2020-10-14",
+			"popularity": 598.111,
+			"vote_count": 13,
+			"vote_average": 5.2,
+			"overview": "옛 전우들이 모여 술을 마시고 대화를 나누는 VFW(해외참전용사) 모임이 있던 밤. 어린 소녀 하나가 훔친 마약을 들고 그 모임에 들이닥친다. 그 뒤를 이어 잔인한 폭력배들이 여자 아이를 추적하면서 그 모임은 소녀와 퇴역군인 모두를 위한 생존 오두막으로 바뀐다. 참전용사들은 마약에 찌든 폭력배들의 끊임없는 공격에 총력전을 펼치기 위해 모을 수 있는 무기를 전부 모아 들이고, 결국 전면전이 뒤따른다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
+			"genres": [
+				28,
+				53,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 694919,
+			"adult": false,
+			"title": "플레인 하이스트",
+			"release_date": "2020-09-29",
+			"popularity": 579.822,
+			"vote_count": 190,
+			"vote_average": 5.9,
+			"overview": "마지막 게임에서의 거액의 빚을 갚기 위해 ‘다리우스’ 밑에서 일하게 된 전직 도박꾼 ‘잭’은 전세계 극악무도한 범죄자들이 모여 베팅을 벌이는 ‘머니 플레인’에 탑승해 현금 수백만 달러를 탈취하고 가상 화폐 10억 달러를 해킹하는 미션을 성공시켜야 한다. 하지만 다리우스는 잭을 함정에 빠뜨리고 잭은 플랜B를 가동해 되갚아주려 하는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m9ZDoCzSbQ7SAOz2tcb1rt6bGG2.jpg",
+			"genres": [
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 618353,
+			"adult": false,
+			"title": "배트맨: 데스 인 더 패밀리",
+			"release_date": "2020-10-13",
+			"popularity": 596.463,
+			"vote_count": 72,
+			"vote_average": 7.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+			"genres": [
+				16,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 539885,
+			"adult": false,
+			"title": "에이바",
+			"release_date": "2020-07-02",
+			"popularity": 571.198,
+			"vote_count": 642,
+			"vote_average": 5.6,
+			"overview": "타깃 제거 100%, 실패 확률 0%  킬러 ‘에이바’(제시카 차스테인).  프랑스 최대의 사기범을 제거하는 작전에 투입된 그녀는 임무 중 조직의 금기를 깨트린다. 한편, 그 사실을 알게 된 새로운 보스 ‘사이먼’(콜린 파렐)은 그녀를 제거할 것을 명령하게 되는데… 죽거나, 죽이거나 타깃이 된 그녀, 살기 위한 킬링 액션이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/fJ0i5MKbBTKJGYY2uxsiUMdwMc6.jpg",
+			"genres": [
+				28,
+				80,
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.popular",
+		"fields": {
+			"id": 581392,
+			"adult": false,
+			"title": "반도",
+			"release_date": "2020-07-15",
+			"popularity": 630.558,
+			"vote_count": 785,
+			"vote_average": 7,
+			"overview": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고 누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4m6w5gXggWfxeCZD81Pxb9B4hx5.jpg",
+			"genres": [
+				28,
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 595149,
+			"adult": false,
+			"title": "데스 오브 미",
+			"release_date": "2020-10-02",
+			"popularity": 193.903,
+			"vote_count": 49,
+			"vote_average": 5.4,
+			"overview": "특별한 휴가를 떠난 한 커플. 광란의 밤을 보내고 숙취에 잠을 깨는데. 기억을 잃은 두 사람의 모습이 찍힌 영상 속엔 충격적인 전날 밤의 진실이 담겨있다. 두 사람은 다른 커플의 남편이 부인을 죽이는 괴상한 의식에 함께 참여 했지만 충격적으로 그 부인은 여전히 살아있는데... 전날 밤의 진실은 무엇일까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+			"genres": [
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 413518,
+			"adult": false,
+			"title": "피노키오",
+			"release_date": "2019-12-19",
+			"popularity": 192.023,
+			"vote_count": 779,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/t4NGQ4xG9YQ8d4QD6J9twn9M0py.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 591629,
+			"adult": false,
+			"title": "레이디 드라이버",
+			"release_date": "2020-12-03",
+			"popularity": 187.481,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/uGLbtsn1yzRMe8rTVN8jGo4naYf.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 399363,
+			"adult": false,
+			"title": "웬디",
+			"release_date": "2020-02-28",
+			"popularity": 74.336,
+			"vote_count": 47,
+			"vote_average": 6.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nphsStbtAuJ2IaXtCvDXDwMUF5N.jpg",
+			"genres": [
+				14,
+				12,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 605499,
+			"adult": false,
+			"title": "나의 인생여행",
+			"release_date": "2020-09-25",
+			"popularity": 70.386,
+			"vote_count": 9,
+			"vote_average": 4.7,
+			"overview": "영국을 떠나 30년 만에 베트남으로 돌아온 ‘키트’(헨리 골딩). 과거의 자신과 가족의 흔적을 따라 호치민에서 하노이로 떠나면서 진정한 나 자신을 찾는 여정이 시작되는데… 올 겨울, 그의 인생여행이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eeK1YMRXaxD0egZSfnHM7hbaHsj.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 652004,
+			"adult": false,
+			"title": "울프 오브 스노우 할로우",
+			"release_date": "2020-12-10",
+			"popularity": 58.713,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "작은 산골 마을에 보름달이 뜰 때마다 시체가 발견되면서 마을 전체가 공포에 사로잡힌다. 10대 딸을 키우면서 병든 아버지를 봉양하느라 수면까지 부족한 존 마샬 경관은 세상에 늑대인간 같은 건 없다는 것을 마을 사람들에게 상기시키려하지만 시간이 지날수록 사람들의 의심은 짙어져만 가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXeTSXR5ryFwxrlpmD9hhXJTAuc.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 583132,
+			"adult": false,
+			"title": "사다코",
+			"release_date": "2019-05-24",
+			"popularity": 59.75,
+			"vote_count": 49,
+			"vote_average": 6.5,
+			"overview": "링 20주년 기념작. 오리지널을 만들었던 나카다 히데오가 다시 연출을 맡았다. 원작에서는 비디오를 통해서 저주가 퍼져 나갔지만 이번에는 인터넷을 통해서 전파된다. 유튜버가 우연히 유령의 존재를 포착하고, 그것을 본 이들은 저주를 풀기 위해 힘을 합친다.  [제23회 부천국제판타스틱영화제]",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nukKeXfmD9tywQIebW9nduS4elh.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 458576,
+			"adult": false,
+			"title": "몬스터 헌터",
+			"release_date": "2020-12-03",
+			"popularity": 51.742,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "아르테미스 대위와 그녀를 따르는 대원들이 알 수 없는 현상으로 새로운 세계로 이동하게 되면서 벌어지는 이야기를 그린 판타지 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zO9R7Z6DRDgRO9QVz4lAJg3L15o.jpg",
+			"genres": [
+				14,
+				28,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 547017,
+			"adult": false,
+			"title": "셜리",
+			"release_date": "2020-09-11",
+			"popularity": 54.13,
+			"vote_count": 15,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 595149,
+			"adult": false,
+			"title": "데스 오브 미",
+			"release_date": "2020-10-02",
+			"popularity": 193.903,
+			"vote_count": 49,
+			"vote_average": 5.4,
+			"overview": "특별한 휴가를 떠난 한 커플. 광란의 밤을 보내고 숙취에 잠을 깨는데. 기억을 잃은 두 사람의 모습이 찍힌 영상 속엔 충격적인 전날 밤의 진실이 담겨있다. 두 사람은 다른 커플의 남편이 부인을 죽이는 괴상한 의식에 함께 참여 했지만 충격적으로 그 부인은 여전히 살아있는데... 전날 밤의 진실은 무엇일까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+			"genres": [
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 413518,
+			"adult": false,
+			"title": "피노키오",
+			"release_date": "2019-12-19",
+			"popularity": 192.023,
+			"vote_count": 779,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/t4NGQ4xG9YQ8d4QD6J9twn9M0py.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 591629,
+			"adult": false,
+			"title": "레이디 드라이버",
+			"release_date": "2020-12-03",
+			"popularity": 187.481,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/uGLbtsn1yzRMe8rTVN8jGo4naYf.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 399363,
+			"adult": false,
+			"title": "웬디",
+			"release_date": "2020-02-28",
+			"popularity": 74.336,
+			"vote_count": 47,
+			"vote_average": 6.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nphsStbtAuJ2IaXtCvDXDwMUF5N.jpg",
+			"genres": [
+				14,
+				12,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 605499,
+			"adult": false,
+			"title": "나의 인생여행",
+			"release_date": "2020-09-25",
+			"popularity": 70.386,
+			"vote_count": 9,
+			"vote_average": 4.7,
+			"overview": "영국을 떠나 30년 만에 베트남으로 돌아온 ‘키트’(헨리 골딩). 과거의 자신과 가족의 흔적을 따라 호치민에서 하노이로 떠나면서 진정한 나 자신을 찾는 여정이 시작되는데… 올 겨울, 그의 인생여행이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eeK1YMRXaxD0egZSfnHM7hbaHsj.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 652004,
+			"adult": false,
+			"title": "울프 오브 스노우 할로우",
+			"release_date": "2020-12-10",
+			"popularity": 58.713,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "작은 산골 마을에 보름달이 뜰 때마다 시체가 발견되면서 마을 전체가 공포에 사로잡힌다. 10대 딸을 키우면서 병든 아버지를 봉양하느라 수면까지 부족한 존 마샬 경관은 세상에 늑대인간 같은 건 없다는 것을 마을 사람들에게 상기시키려하지만 시간이 지날수록 사람들의 의심은 짙어져만 가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXeTSXR5ryFwxrlpmD9hhXJTAuc.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 583132,
+			"adult": false,
+			"title": "사다코",
+			"release_date": "2019-05-24",
+			"popularity": 59.75,
+			"vote_count": 49,
+			"vote_average": 6.5,
+			"overview": "링 20주년 기념작. 오리지널을 만들었던 나카다 히데오가 다시 연출을 맡았다. 원작에서는 비디오를 통해서 저주가 퍼져 나갔지만 이번에는 인터넷을 통해서 전파된다. 유튜버가 우연히 유령의 존재를 포착하고, 그것을 본 이들은 저주를 풀기 위해 힘을 합친다.  [제23회 부천국제판타스틱영화제]",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nukKeXfmD9tywQIebW9nduS4elh.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 458576,
+			"adult": false,
+			"title": "몬스터 헌터",
+			"release_date": "2020-12-03",
+			"popularity": 51.742,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "아르테미스 대위와 그녀를 따르는 대원들이 알 수 없는 현상으로 새로운 세계로 이동하게 되면서 벌어지는 이야기를 그린 판타지 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zO9R7Z6DRDgRO9QVz4lAJg3L15o.jpg",
+			"genres": [
+				14,
+				28,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 547017,
+			"adult": false,
+			"title": "셜리",
+			"release_date": "2020-09-11",
+			"popularity": 54.13,
+			"vote_count": 15,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 595149,
+			"adult": false,
+			"title": "데스 오브 미",
+			"release_date": "2020-10-02",
+			"popularity": 193.903,
+			"vote_count": 49,
+			"vote_average": 5.4,
+			"overview": "특별한 휴가를 떠난 한 커플. 광란의 밤을 보내고 숙취에 잠을 깨는데. 기억을 잃은 두 사람의 모습이 찍힌 영상 속엔 충격적인 전날 밤의 진실이 담겨있다. 두 사람은 다른 커플의 남편이 부인을 죽이는 괴상한 의식에 함께 참여 했지만 충격적으로 그 부인은 여전히 살아있는데... 전날 밤의 진실은 무엇일까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+			"genres": [
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 413518,
+			"adult": false,
+			"title": "피노키오",
+			"release_date": "2019-12-19",
+			"popularity": 192.023,
+			"vote_count": 779,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/t4NGQ4xG9YQ8d4QD6J9twn9M0py.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 591629,
+			"adult": false,
+			"title": "레이디 드라이버",
+			"release_date": "2020-12-03",
+			"popularity": 187.481,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/uGLbtsn1yzRMe8rTVN8jGo4naYf.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 399363,
+			"adult": false,
+			"title": "웬디",
+			"release_date": "2020-02-28",
+			"popularity": 74.336,
+			"vote_count": 47,
+			"vote_average": 6.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nphsStbtAuJ2IaXtCvDXDwMUF5N.jpg",
+			"genres": [
+				14,
+				12,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 605499,
+			"adult": false,
+			"title": "나의 인생여행",
+			"release_date": "2020-09-25",
+			"popularity": 70.386,
+			"vote_count": 9,
+			"vote_average": 4.7,
+			"overview": "영국을 떠나 30년 만에 베트남으로 돌아온 ‘키트’(헨리 골딩). 과거의 자신과 가족의 흔적을 따라 호치민에서 하노이로 떠나면서 진정한 나 자신을 찾는 여정이 시작되는데… 올 겨울, 그의 인생여행이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eeK1YMRXaxD0egZSfnHM7hbaHsj.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 652004,
+			"adult": false,
+			"title": "울프 오브 스노우 할로우",
+			"release_date": "2020-12-10",
+			"popularity": 58.713,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "작은 산골 마을에 보름달이 뜰 때마다 시체가 발견되면서 마을 전체가 공포에 사로잡힌다. 10대 딸을 키우면서 병든 아버지를 봉양하느라 수면까지 부족한 존 마샬 경관은 세상에 늑대인간 같은 건 없다는 것을 마을 사람들에게 상기시키려하지만 시간이 지날수록 사람들의 의심은 짙어져만 가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXeTSXR5ryFwxrlpmD9hhXJTAuc.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 583132,
+			"adult": false,
+			"title": "사다코",
+			"release_date": "2019-05-24",
+			"popularity": 59.75,
+			"vote_count": 49,
+			"vote_average": 6.5,
+			"overview": "링 20주년 기념작. 오리지널을 만들었던 나카다 히데오가 다시 연출을 맡았다. 원작에서는 비디오를 통해서 저주가 퍼져 나갔지만 이번에는 인터넷을 통해서 전파된다. 유튜버가 우연히 유령의 존재를 포착하고, 그것을 본 이들은 저주를 풀기 위해 힘을 합친다.  [제23회 부천국제판타스틱영화제]",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nukKeXfmD9tywQIebW9nduS4elh.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 458576,
+			"adult": false,
+			"title": "몬스터 헌터",
+			"release_date": "2020-12-03",
+			"popularity": 51.742,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "아르테미스 대위와 그녀를 따르는 대원들이 알 수 없는 현상으로 새로운 세계로 이동하게 되면서 벌어지는 이야기를 그린 판타지 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zO9R7Z6DRDgRO9QVz4lAJg3L15o.jpg",
+			"genres": [
+				14,
+				28,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 547017,
+			"adult": false,
+			"title": "셜리",
+			"release_date": "2020-09-11",
+			"popularity": 54.13,
+			"vote_count": 15,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 595149,
+			"adult": false,
+			"title": "데스 오브 미",
+			"release_date": "2020-10-02",
+			"popularity": 193.903,
+			"vote_count": 49,
+			"vote_average": 5.4,
+			"overview": "특별한 휴가를 떠난 한 커플. 광란의 밤을 보내고 숙취에 잠을 깨는데. 기억을 잃은 두 사람의 모습이 찍힌 영상 속엔 충격적인 전날 밤의 진실이 담겨있다. 두 사람은 다른 커플의 남편이 부인을 죽이는 괴상한 의식에 함께 참여 했지만 충격적으로 그 부인은 여전히 살아있는데... 전날 밤의 진실은 무엇일까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+			"genres": [
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 413518,
+			"adult": false,
+			"title": "피노키오",
+			"release_date": "2019-12-19",
+			"popularity": 192.023,
+			"vote_count": 779,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/t4NGQ4xG9YQ8d4QD6J9twn9M0py.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 591629,
+			"adult": false,
+			"title": "레이디 드라이버",
+			"release_date": "2020-12-03",
+			"popularity": 187.481,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/uGLbtsn1yzRMe8rTVN8jGo4naYf.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 399363,
+			"adult": false,
+			"title": "웬디",
+			"release_date": "2020-02-28",
+			"popularity": 74.336,
+			"vote_count": 47,
+			"vote_average": 6.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nphsStbtAuJ2IaXtCvDXDwMUF5N.jpg",
+			"genres": [
+				14,
+				12,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 605499,
+			"adult": false,
+			"title": "나의 인생여행",
+			"release_date": "2020-09-25",
+			"popularity": 70.386,
+			"vote_count": 9,
+			"vote_average": 4.7,
+			"overview": "영국을 떠나 30년 만에 베트남으로 돌아온 ‘키트’(헨리 골딩). 과거의 자신과 가족의 흔적을 따라 호치민에서 하노이로 떠나면서 진정한 나 자신을 찾는 여정이 시작되는데… 올 겨울, 그의 인생여행이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eeK1YMRXaxD0egZSfnHM7hbaHsj.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 652004,
+			"adult": false,
+			"title": "울프 오브 스노우 할로우",
+			"release_date": "2020-12-10",
+			"popularity": 58.713,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "작은 산골 마을에 보름달이 뜰 때마다 시체가 발견되면서 마을 전체가 공포에 사로잡힌다. 10대 딸을 키우면서 병든 아버지를 봉양하느라 수면까지 부족한 존 마샬 경관은 세상에 늑대인간 같은 건 없다는 것을 마을 사람들에게 상기시키려하지만 시간이 지날수록 사람들의 의심은 짙어져만 가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXeTSXR5ryFwxrlpmD9hhXJTAuc.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 583132,
+			"adult": false,
+			"title": "사다코",
+			"release_date": "2019-05-24",
+			"popularity": 59.75,
+			"vote_count": 49,
+			"vote_average": 6.5,
+			"overview": "링 20주년 기념작. 오리지널을 만들었던 나카다 히데오가 다시 연출을 맡았다. 원작에서는 비디오를 통해서 저주가 퍼져 나갔지만 이번에는 인터넷을 통해서 전파된다. 유튜버가 우연히 유령의 존재를 포착하고, 그것을 본 이들은 저주를 풀기 위해 힘을 합친다.  [제23회 부천국제판타스틱영화제]",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nukKeXfmD9tywQIebW9nduS4elh.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 458576,
+			"adult": false,
+			"title": "몬스터 헌터",
+			"release_date": "2020-12-03",
+			"popularity": 51.742,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "아르테미스 대위와 그녀를 따르는 대원들이 알 수 없는 현상으로 새로운 세계로 이동하게 되면서 벌어지는 이야기를 그린 판타지 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zO9R7Z6DRDgRO9QVz4lAJg3L15o.jpg",
+			"genres": [
+				14,
+				28,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 547017,
+			"adult": false,
+			"title": "셜리",
+			"release_date": "2020-09-11",
+			"popularity": 54.13,
+			"vote_count": 15,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 524047,
+			"adult": false,
+			"title": "그린랜드",
+			"release_date": "2020-07-29",
+			"popularity": 1079.81,
+			"vote_count": 554,
+			"vote_average": 7.1,
+			"overview": "혜성의 지구 충돌 속보를 지켜보던 존과 가족들. 미 항공우주국(NASA)의 예측과 달리 해상으로 떨어졌어야 할 파편은 캘리포니아를 비롯해 세계 대도시로 추락해 세계는 순식간에 혼돈에 빠진다. 지구의 3/4을 날려버릴 초대형 혜성 추락까지 남은 시간은 단 48시간. 존과 가족은 지구의 유일한 안전 대피소인 ‘그린란드’의 벙커로 향하는데... 인류의 마지막 카운트다운이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/wLgHczwajb3QV2JBgsqNVjuHoJC.jpg",
+			"genres": [
+				28,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 531219,
+			"adult": false,
+			"title": "마녀를 잡아라",
+			"release_date": "2020-10-26",
+			"popularity": 1095.491,
+			"vote_count": 738,
+			"vote_average": 6.9,
+			"overview": "마녀들로부터 발각되어 생쥐로 변해버린 소년이 과거 마녀전담반이었던 할머니와 함께 마녀들과 맞선다는 내용의 판타지 어드벤처",
+			"poster_path": "https://image.tmdb.org/t/p/w500/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				35,
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 635302,
+			"adult": false,
+			"title": "극장판 귀멸의 칼날: 무한열차편",
+			"release_date": "2020-10-16",
+			"popularity": 507.12,
+			"vote_count": 79,
+			"vote_average": 6,
+			"overview": "혈귀로 변해버린 여동생 ‘네즈코’를 인간으로 되돌릴 단서를 찾아 비밀조직 귀살대에 들어간 ‘탄지로.’ ‘젠이츠’, ‘이노스케’와 새로운 임무 수행을 위해 무한열차에 탑승 후 귀살대 최강 검사 염주 ‘렌고쿠’와 합류한다. 달리는 무한열차에서 승객들이 하나 둘 흔적 없이 사라지자 숨어있는 식인 혈귀의 존재를 직감하는 ‘렌고쿠’. 귀살대 ‘탄지로’ 일행과 최강 검사 염주 ‘렌고쿠’는 어둠 속을 달리는 무한열차에서 모두의 목숨을 구하기 위해 예측불가능한 능력을 가진 혈귀와 목숨을 건 혈전을 시작하는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/m2FNRngyJMyxLatBMJR8pbeG2v.jpg",
+			"genres": [
+				16,
+				28,
+				36,
+				12,
+				14,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 425001,
+			"adult": false,
+			"title": "워 위드 그랜파",
+			"release_date": "2020-08-27",
+			"popularity": 284.715,
+			"vote_count": 128,
+			"vote_average": 6,
+			"overview": "할아버지 ‘에드’에게 방을 뺏겨 다락방 신세가 된 손자 ‘피터’.  방을 되찾기 위해 할아버지를 골탕 먹이려 하지만 호락호락하지 않다. 계속되는 ‘피터’의 도발에 ‘에드’의 반격이 시작되고,  방을 사수하기 위한 소리 없는 전쟁이 시작되는데…!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/gEIcPyNduE28kNTMlQ5QN1rbbt7.jpg",
+			"genres": [
+				35,
+				10751,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 595149,
+			"adult": false,
+			"title": "데스 오브 미",
+			"release_date": "2020-10-02",
+			"popularity": 193.903,
+			"vote_count": 49,
+			"vote_average": 5.4,
+			"overview": "특별한 휴가를 떠난 한 커플. 광란의 밤을 보내고 숙취에 잠을 깨는데. 기억을 잃은 두 사람의 모습이 찍힌 영상 속엔 충격적인 전날 밤의 진실이 담겨있다. 두 사람은 다른 커플의 남편이 부인을 죽이는 괴상한 의식에 함께 참여 했지만 충격적으로 그 부인은 여전히 살아있는데... 전날 밤의 진실은 무엇일까?",
+			"poster_path": "https://image.tmdb.org/t/p/w500/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+			"genres": [
+				27,
+				9648
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 413518,
+			"adult": false,
+			"title": "피노키오",
+			"release_date": "2019-12-19",
+			"popularity": 192.023,
+			"vote_count": 779,
+			"vote_average": 6.7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/t4NGQ4xG9YQ8d4QD6J9twn9M0py.jpg",
+			"genres": [
+				14,
+				10751,
+				12,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 591629,
+			"adult": false,
+			"title": "레이디 드라이버",
+			"release_date": "2020-12-03",
+			"popularity": 187.481,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/uGLbtsn1yzRMe8rTVN8jGo4naYf.jpg",
+			"genres": [
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 529203,
+			"adult": false,
+			"title": "크루즈 패밀리 2",
+			"release_date": "2020-11-19",
+			"popularity": 165.11,
+			"vote_count": 8,
+			"vote_average": 6.3,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+			"genres": [
+				12,
+				14,
+				10751,
+				16
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 616803,
+			"adult": false,
+			"title": "딥워터",
+			"release_date": "2020-02-14",
+			"popularity": 136.753,
+			"vote_count": 152,
+			"vote_average": 7.1,
+			"overview": "어린시절 추억이 담긴 해안으로 겨울 다이빙을 떠난 이다와 투나. 아름다운 심해에서 스쿠버 다이빙을 즐기던 중, 갑작스러운 사고로 동생 투나가 수심 33미터 바다 아래에 갇히고 만다. 외부와 연락은 끊기고, 공기통 여분도 남지 않은 상황, 산소가 바닥나기 전에 동생을 살려야 한다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/obPANsnciwCFMNScXeviehrcFZi.jpg",
+			"genres": [
+				53,
+				18,
+				28
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 551804,
+			"adult": false,
+			"title": "프리키 데스데이",
+			"release_date": "2020-11-11",
+			"popularity": 88.865,
+			"vote_count": 23,
+			"vote_average": 6.6,
+			"overview": "평범 이하, 존재감 제로 고등학생 밀리가 우연히 중년의 싸이코 살인마와 몸이 바뀌게 되면서 벌어지는 예측불가 호러테이닝 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/1qy7rSE4rF8ERdl6quTLrbCX9Sl.jpg",
+			"genres": [
+				27,
+				53,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 399363,
+			"adult": false,
+			"title": "웬디",
+			"release_date": "2020-02-28",
+			"popularity": 74.336,
+			"vote_count": 47,
+			"vote_average": 6.5,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nphsStbtAuJ2IaXtCvDXDwMUF5N.jpg",
+			"genres": [
+				14,
+				12,
+				10751
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 605499,
+			"adult": false,
+			"title": "나의 인생여행",
+			"release_date": "2020-09-25",
+			"popularity": 70.386,
+			"vote_count": 9,
+			"vote_average": 4.7,
+			"overview": "영국을 떠나 30년 만에 베트남으로 돌아온 ‘키트’(헨리 골딩). 과거의 자신과 가족의 흔적을 따라 호치민에서 하노이로 떠나면서 진정한 나 자신을 찾는 여정이 시작되는데… 올 겨울, 그의 인생여행이 시작된다!",
+			"poster_path": "https://image.tmdb.org/t/p/w500/eeK1YMRXaxD0egZSfnHM7hbaHsj.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 652004,
+			"adult": false,
+			"title": "울프 오브 스노우 할로우",
+			"release_date": "2020-12-10",
+			"popularity": 58.713,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "작은 산골 마을에 보름달이 뜰 때마다 시체가 발견되면서 마을 전체가 공포에 사로잡힌다. 10대 딸을 키우면서 병든 아버지를 봉양하느라 수면까지 부족한 존 마샬 경관은 세상에 늑대인간 같은 건 없다는 것을 마을 사람들에게 상기시키려하지만 시간이 지날수록 사람들의 의심은 짙어져만 가는데...",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nXeTSXR5ryFwxrlpmD9hhXJTAuc.jpg",
+			"genres": [
+				27,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 583132,
+			"adult": false,
+			"title": "사다코",
+			"release_date": "2019-05-24",
+			"popularity": 59.75,
+			"vote_count": 49,
+			"vote_average": 6.5,
+			"overview": "링 20주년 기념작. 오리지널을 만들었던 나카다 히데오가 다시 연출을 맡았다. 원작에서는 비디오를 통해서 저주가 퍼져 나갔지만 이번에는 인터넷을 통해서 전파된다. 유튜버가 우연히 유령의 존재를 포착하고, 그것을 본 이들은 저주를 풀기 위해 힘을 합친다.  [제23회 부천국제판타스틱영화제]",
+			"poster_path": "https://image.tmdb.org/t/p/w500/nukKeXfmD9tywQIebW9nduS4elh.jpg",
+			"genres": [
+				27
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 458576,
+			"adult": false,
+			"title": "몬스터 헌터",
+			"release_date": "2020-12-03",
+			"popularity": 51.742,
+			"vote_count": 0,
+			"vote_average": 0,
+			"overview": "아르테미스 대위와 그녀를 따르는 대원들이 알 수 없는 현상으로 새로운 세계로 이동하게 되면서 벌어지는 이야기를 그린 판타지 영화",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zO9R7Z6DRDgRO9QVz4lAJg3L15o.jpg",
+			"genres": [
+				14,
+				28,
+				12
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 547017,
+			"adult": false,
+			"title": "셜리",
+			"release_date": "2020-09-11",
+			"popularity": 54.13,
+			"vote_count": 15,
+			"vote_average": 7,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+			"genres": [
+				18,
+				53
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 553604,
+			"adult": false,
+			"title": "어니스트 씨프",
+			"release_date": "2020-03-12",
+			"popularity": 33.727,
+			"vote_count": 54,
+			"vote_average": 6.8,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+			"genres": [
+				28,
+				53,
+				80,
+				18
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 545237,
+			"adult": false,
+			"title": "더 네스트",
+			"release_date": "2020-05-08",
+			"popularity": 43.306,
+			"vote_count": 13,
+			"vote_average": 7.2,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/mSTrRgXGzu2t1jVhTexIqwSHlk7.jpg",
+			"genres": [
+				18,
+				10749
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 602211,
+			"adult": false,
+			"title": "팻맨",
+			"release_date": "2020-11-13",
+			"popularity": 47.891,
+			"vote_count": 15,
+			"vote_average": 5.6,
+			"overview": "",
+			"poster_path": "https://image.tmdb.org/t/p/w500/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+			"genres": [
+				28,
+				35
+			]
+		}
+	},
+	{
+		"model": "movies.upcoming",
+		"fields": {
+			"id": 480857,
+			"adult": false,
+			"title": "마리 퀴리",
+			"release_date": "2019-09-06",
+			"popularity": 37.89,
+			"vote_count": 227,
+			"vote_average": 6.4,
+			"overview": "뛰어난 연구 실적에도 불구하고 거침없는 성격 때문에 연구실에서 쫓겨난 과학자 마리. 평소 그녀의 연구를 눈여겨본 피에르는 공동 연구를 제안하고, 두 사람은 자연스럽게 사랑을 느끼게 된다. 연구를 거듭하던 마리는 새로운 원소 라듐을 발견하는데 성공하며 피에르와 함께 노벨상을 수상한다. 그 후 이 발견으로 암을 치료할 수 있다는 기대에 한껏 부푼다. 하지만 기쁨도 잠시, 피에르가 갑작스러운 죽음을 맞고 마리는 깊은 절망에 빠진다. 그리고 곧 마리는 이 위대한 발견 이면의 예상치 못한 힘을 알게 되는데…",
+			"poster_path": "https://image.tmdb.org/t/p/w500/sZetjIZ1P4YhaBB93ZSE4Tp7xbH.jpg",
+			"genres": [
+				18,
+				10749,
+				36
+			]
+		}
+	}
+]

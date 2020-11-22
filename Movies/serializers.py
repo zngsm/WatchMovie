@@ -22,9 +22,3 @@ class UpcomingSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-# class SearchmovieSerializer(serializers.ModelSerializer):
-
-#     class Meta:
-#         model = SearchMovie
-#         fields = '__all__'
-
