@@ -50,6 +50,7 @@ def search_movie(request, movie_title):
         response_body = response.read()
         res = response_body.decode('utf-8')
         datas = json.loads(res)["items"]
-        return HttpResponse(datas)
+        # for data in datas:
+        return Response(datas)
     else:
         return Response({'error': '잘못된 접근입니다'})
