@@ -12,6 +12,7 @@ import os
 import sys
 import urllib.request
 import json
+import requests
 
 # Create your views here.
 @api_view(['GET'])
@@ -53,4 +54,47 @@ def search_movie(request, movie_title):
         # for data in datas:
         return Response(datas)
     else:
-        return Response({'error': '잘못된 접근입니다'})
+        return Response({'error': '검색결과가 없습니다'})
+
+
+@api_view(['GET'])
+def recommend_movie(request, movie_pk):
+    url = f'https://api.themoviedb.org/3/movie/{movie_pk}/similar?api_key=8891da6c530f993ba51066b80edfa91d'
+    payload = {
+        'language': 'ko-kr'
+    }
+    res = requests.get(url, payload)
+    result = res.json()["results"]
+    if result:
+        url_movie = f'https://api.themoviedb.org/3/movie/{result[0]["id"]}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
+        video = requests.get(url_movie)
+        v = video.json()["results"][0]["key"]
+        context = {
+            "id" : result[0]["id"],
+            "title" : result[0]["title"],
+            "adult" : result[0]["adult"],
+            "release_date" : result[0]["release_date"],
+            "poster_path" : f'https://image.tmdb.org/t/p/w500{result[0]["poster_path"]}',
+            "overview" : result[0]["overview"],
+            "video" : f'https://www.youtube.com/watch?v={v}',
+        }     
+    else:
+        url2 = f'https://api.themoviedb.org/3/movie/{movie_pk}?api_key=8891da6c530f993ba51066b80edfa91d'
+        payload = {
+        'language': 'ko-kr'
+        }
+        err_res = requests.get(url2, payload)
+        err_result = err_res.json()
+        url_movie = f'https://api.themoviedb.org/3/movie/{movie_pk}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
+        video = requests.get(url_movie)
+        v = video.json()["results"][0]["key"]
+        context = {
+            "id" : err_result["id"],
+            "title" : err_result["title"],
+            "adult" : err_result["adult"],
+            "release_date" : err_result["release_date"],
+            "poster_path" : f'https://image.tmdb.org/t/p/w500{err_result["poster_path"]}',
+            "overview" : err_result["overview"],
+            "video" : f'https://www.youtube.com/watch?v={v}',
+        }  
+    return Response(context)
