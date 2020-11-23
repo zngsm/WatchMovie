@@ -76,7 +76,7 @@ def recommend_movie(request, movie_pk):
             "release_date" : result[0]["release_date"],
             "poster_path" : f'https://image.tmdb.org/t/p/w500{result[0]["poster_path"]}',
             "overview" : result[0]["overview"],
-            "video" : f'https://www.youtube.com/watch?v={v}',
+            "video" : f'https://www.youtube.com/embed/{v}',
         }     
     else:
         url2 = f'https://api.themoviedb.org/3/movie/{movie_pk}?api_key=8891da6c530f993ba51066b80edfa91d'
@@ -88,6 +88,9 @@ def recommend_movie(request, movie_pk):
         url_movie = f'https://api.themoviedb.org/3/movie/{movie_pk}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
         video = requests.get(url_movie)
         v = video.json()["results"][0]["key"]
+
+        
+
         context = {
             "id" : err_result["id"],
             "title" : err_result["title"],
@@ -95,6 +98,6 @@ def recommend_movie(request, movie_pk):
             "release_date" : err_result["release_date"],
             "poster_path" : f'https://image.tmdb.org/t/p/w500{err_result["poster_path"]}',
             "overview" : err_result["overview"],
-            "video" : f'https://www.youtube.com/watch?v={v}',
+            "video" : f'https://www.youtube.com/embed/{v}',
         }  
     return Response(context)
