@@ -143,11 +143,13 @@ def subscribe_list(request, user_pk):
 def subscribe(request, user_pk):
     me = request.user
     person = get_object_or_404(get_user_model(), pk=user_pk)
-    if request.method == 'POST':
-        subscribe = person.subscriber.add(me)
-        serializer = UserSubscribeSerializer(subscribe, many=True)
-        return Response(serializer.data)
-    else:
-        subscribe = person.subscriber.remove(me)
-        serializer = UserSubscribeSerializer(subscribe, many=True)
-        return Response(serializer.data)
+    if me != person:
+        if request.method == 'POST':
+            subscribe = person.subscriber.add(me)
+            serializer = UserSubscribeSerializer(subscribe, many=True)
+            return Response(serializer.data)
+        else:
+            subscribe = person.subscriber.remove(me)
+            serializer = UserSubscribeSerializer(subscribe, many=True)
+            return Response(serializer.data)
+    return Response({'error': '본인은 구독할 수 없습니다'})

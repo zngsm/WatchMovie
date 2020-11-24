@@ -32,15 +32,18 @@ def review_list_create(request):
 @permission_classes([IsAuthenticated]) 
 def review_update_delete(request, pk):
     review = get_object_or_404(Review, pk=pk)
+    if request.user == review.user:
     # 수정 요청
-    if request.method == 'PUT':
-        serializer = ReviewSerializer(instance= review, data=request.data)
-        if serializer.is_valid(raise_exception=True):
-            serializer.save()
-            return Response(serializer.data)
-    else: # delete 요청
-        review.delete()
-        return Response({'id':pk,})
+        if request.method == 'PUT':
+            serializer = ReviewSerializer(instance= review, data=request.data)
+            if serializer.is_valid(raise_exception=True):
+                serializer.save()
+                return Response(serializer.data)
+        else: # delete 요청
+            review.delete()
+            return Response({'id':pk,})
+    else:
+        return Response({'error':'접근이 불가합니다'})
 
 
 @api_view(['GET', 'POST'])
@@ -66,11 +69,14 @@ def comment(request, pk):
 @permission_classes([IsAuthenticated])
 def comment_update_delete(request, pk, comment_pk):
     comment = get_object_or_404(Comment, pk=comment_pk)
-    if request.method == 'PUT':
-        serializer = CommentSerializer(comment, data=request.data)
-        if serializer.is_valid(raise_exception=True):
-            serializer.save()
-            return Response(serializer.data)
+    if request.user == comment.user:
+        if request.method == 'PUT':
+            serializer = CommentSerializer(comment, data=request.data)
+            if serializer.is_valid(raise_exception=True):
+                serializer.save()
+                return Response(serializer.data)
+        else:
+            comment.delete()
+            return Response({'id': comment_pk})
     else:
-        comment.delete()
-        return Response({'id': comment_pk})
+        return Response({'error': '접근이 불가합니다'})
