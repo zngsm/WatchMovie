@@ -52,7 +52,7 @@ def review_update_delete(request, pk):
 def comment(request, pk):
     review = get_object_or_404(Review, pk=pk)
     if request.method == 'GET':
-        comments = Comment.objects.filter(review=review)
+        comments = Comment.objects.filter(review=review).order_by('-pk')
         serializer = CommentSerializer(comments, many=True)
         # serializer = CommentSerializer(request.user.comment, many=True)
         return Response(serializer.data)

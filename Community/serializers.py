@@ -3,6 +3,7 @@ from .models import Review, Comment
 
 class ReviewSerializer(serializers.ModelSerializer):
     created_at = serializers.DateTimeField(format="%Y.%m.%d %H:%M", required=False, read_only=True)
+    updated_at = serializers.DateTimeField(format="%Y.%m.%d %H:%M", required=False, read_only=True)
 
     class Meta:
         model = Review
@@ -11,9 +12,11 @@ class ReviewSerializer(serializers.ModelSerializer):
 
 
 class CommentSerializer(serializers.ModelSerializer):
-
+    created_at = serializers.DateTimeField(format="%Y.%m.%d %H:%M", required=False, read_only=True)
+    updated_at = serializers.DateTimeField(format="%Y.%m.%d %H:%M", required=False, read_only=True)
+    
     class Meta:
         model = Comment
-        fields = ('id', 'content', 'review', )
+        fields = '__all__'
         read_only_fields = ('review', 'user')
         
