@@ -53,6 +53,7 @@ def profile(request, user_pk):
     # return Response(serializer.data)
     context = {
         'username': person.username,
+        'id': person.pk,
     }
     # wish정보
 
@@ -127,7 +128,8 @@ def wish(request, user_pk):
 def wish_delete(request, user_pk, movie_pk):
     person = get_object_or_404(get_user_model(), pk=user_pk)
     wishmovie = Wish.objects.filter(user=person)
-    deleted_movie = get_object_or_404(wishmovie, pk=movie_pk)
+    deleted_movie = get_object_or_404(wishmovie, num=movie_pk)
+    print(deleted_movie.title)
     deleted_movie.delete()
     return Response({'title': deleted_movie.title})
 
