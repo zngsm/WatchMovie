@@ -26,6 +26,13 @@ def review_list_create(request):
             # serializer.save()
     return Response(serializer.data)
 
+@api_view(['GET'])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def review_page(request, page_pk):
+    reviews = Review.objects.order_by('-pk')[(page_pk-1)*10:page_pk*10]
+    serializer = ReviewSerializer(reviews, many=True)
+    return Response(serializer.data)
 
 @api_view(['PUT', 'DELETE'])   
 @authentication_classes([JSONWebTokenAuthentication])

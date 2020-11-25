@@ -110,7 +110,6 @@ def wish(request, user_pk):
     wishmovie = Wish.objects.filter(user=person)
     if request.method == 'GET':  
         serializer = UserWishListSerializer(wishmovie, many=True)
-        print(wishmovie[0])
         return Response(serializer.data)
     # if request.method == 'POST':
     else:
