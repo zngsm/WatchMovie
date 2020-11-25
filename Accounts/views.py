@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404
 from django.contrib.auth import get_user_model
 
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 
 from rest_framework import status
 
@@ -15,6 +15,8 @@ from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
 from .serializers import UserSerializer, UserinformationSerializer, UserListSerializer, UserWishListSerializer, UserSubscribeSerializer
 from .models import Wish
+
+import json
 
 # Create your views here.
 @api_view(['POST'])
@@ -105,16 +107,21 @@ def profile(request, user_pk):
 @permission_classes([IsAuthenticated])
 def wish(request, user_pk):
     person = get_object_or_404(get_user_model(), pk=user_pk)
-    if request.method == 'GET':
-        wishmovie = Wish.objects.filter(user=person)
+    wishmovie = Wish.objects.filter(user=person)
+    if request.method == 'GET':  
         serializer = UserWishListSerializer(wishmovie, many=True)
+        print(wishmovie[0])
         return Response(serializer.data)
     # if request.method == 'POST':
     else:
-        serializer = UserWishListSerializer(data=request.data)
-        if serializer.is_valid(raise_exception=True):
-            serializer.save(user=person)
-            return Response(serializer.data)
+        if wishmovie.filter(num=request.data["num"]).exists():
+            return HttpResponse(status=500)
+        else:
+            serializer = UserWishListSerializer(data=request.data)
+
+            if serializer.is_valid(raise_exception=True):
+                serializer.save(user=person)
+                return Response(serializer.data)
 
 
 @api_view(['DELETE'])
