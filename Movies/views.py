@@ -1,10 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 from django.http import JsonResponse, HttpResponse
 
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
-from .models import Nowplaying, Popular, Upcoming
+from .models import Nowplaying, Popular, Upcoming, Genre
 from .serializers import NowplayingSerializer, PopularSerializer, UpcomingSerializer
 
 # 네이버 영화 api
@@ -74,6 +74,10 @@ def recommend_movie(request, movie_pk):
         url_movie = f'https://api.themoviedb.org/3/movie/{result[random_num]["id"]}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
         video = requests.get(url_movie)
         v = video.json()["results"][0]["key"]
+        gen = []
+        for g in result[random_num]["genre_ids"]:
+            gen.append(g)
+        print('장르!!', result[random_num]["genre_ids"])
         context = {
             "id" : result[random_num]["id"],
             "title" : result[random_num]["title"],
@@ -82,7 +86,8 @@ def recommend_movie(request, movie_pk):
             "poster_path" : f'https://image.tmdb.org/t/p/w500{result[random_num]["poster_path"]}',
             "overview" : result[random_num]["overview"],
             "video" : f'https://www.youtube.com/embed/{v}',
-        }     
+            "genres": gen,
+        }
     else:
         url2 = f'https://api.themoviedb.org/3/movie/{movie_pk}?api_key=8891da6c530f993ba51066b80edfa91d'
         payload = {
@@ -93,9 +98,10 @@ def recommend_movie(request, movie_pk):
         url_movie = f'https://api.themoviedb.org/3/movie/{movie_pk}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
         video = requests.get(url_movie)
         v = video.json()["results"][0]["key"]
-
-        
-
+        gen = []
+        for g in err_result["genres"]:
+            gen.append(g["id"])
+    
         context = {
             "id" : err_result["id"],
             "title" : err_result["title"],
@@ -104,5 +110,14 @@ def recommend_movie(request, movie_pk):
             "poster_path" : f'https://image.tmdb.org/t/p/w500{err_result["poster_path"]}',
             "overview" : err_result["overview"],
             "video" : f'https://www.youtube.com/embed/{v}',
+            "genres": gen,
         }  
+    return Response(context)
+
+@api_view(['GET'])
+def genres(request, genre_pk):
+    genre = get_object_or_404(Genre, pk=genre_pk)
+    context = {
+        "name":genre.name,
+    }
     return Response(context)
