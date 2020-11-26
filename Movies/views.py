@@ -13,6 +13,7 @@ import sys
 import urllib.request
 import json
 import requests
+import random
 
 # Create your views here.
 @api_view(['GET'])
@@ -66,16 +67,20 @@ def recommend_movie(request, movie_pk):
     res = requests.get(url, payload)
     result = res.json()["results"]
     if result:
-        url_movie = f'https://api.themoviedb.org/3/movie/{result[0]["id"]}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
+        num = len(result)
+        print('총 개수', num)
+        random_num = random.choice(range(num))
+        print('랜덤 번호', random_num)
+        url_movie = f'https://api.themoviedb.org/3/movie/{result[random_num]["id"]}/videos?api_key=8891da6c530f993ba51066b80edfa91d'
         video = requests.get(url_movie)
         v = video.json()["results"][0]["key"]
         context = {
-            "id" : result[0]["id"],
-            "title" : result[0]["title"],
-            "adult" : result[0]["adult"],
-            "release_date" : result[0]["release_date"],
-            "poster_path" : f'https://image.tmdb.org/t/p/w500{result[0]["poster_path"]}',
-            "overview" : result[0]["overview"],
+            "id" : result[random_num]["id"],
+            "title" : result[random_num]["title"],
+            "adult" : result[random_num]["adult"],
+            "release_date" : result[random_num]["release_date"],
+            "poster_path" : f'https://image.tmdb.org/t/p/w500{result[random_num]["poster_path"]}',
+            "overview" : result[random_num]["overview"],
             "video" : f'https://www.youtube.com/embed/{v}',
         }     
     else:
