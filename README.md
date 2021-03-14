@@ -70,11 +70,28 @@ Movies
 
 ## iv. 필수 기능에 대한 설명 
 
+### 메인페이지 
+
+- 페이지 입장시 회원가입/로그인 유도 + 로그인시 인사문구와 상단 네비게이션바 활성화
+
+![image-20210314204340309](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204340309.png)
+
+![image-20210314204537690](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204537690.png)
+
+- 스크롤시 사이트에 대한 간단한 소개(아래는 개발자 간단 소개)
+  - 기본적으로 접혀있는 형태이며 V 를 클릭시 아래의 설명이 나타남
+
+![image-20210314204433473](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204433473.png)
+
+
+
 
 
 ### Community : 리뷰 및 댓글 app
 
 - Review 
+  - ![image-20210314231149042](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231149042.png)
+  - ![image-20210314231118583](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231118583.png)
   - 인증된 사용자는 리뷰를 작성할 수 있고, 다른 사용자의 리뷰를 확인할 수 있습니다.
   - 인증된 사용자와 리뷰의 작성자가 동일하다면, 리뷰를 수정하고 삭제할 수 있습니다.
   - 리뷰는 10개 단위로 페이지네이션되어 확인할 수 있습니다.
@@ -90,8 +107,10 @@ Movies
 ### Accounts : 사용자 정보 app
 
 - Signup
+  - ![image-20210314231328373](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231328373.png)
   - 회원가입 기능입니다.
 - login / out
+  - ![image-20210314231343901](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231343901.png)
   - jwt 토큰을 받아 로그인 할 수 있습니다.
 - Wish
   - 사용자는 원하는 영화를 wish 리스트에 넣을 수 있습니다. wish될 경우 해당 영화의 title 정보와 num 정보가 넘어옵니다. num은 tmdb에서 활용되는 movie의 고유 id 입니다.
@@ -101,22 +120,27 @@ Movies
 - subscribe
   - 구독기능을 추가하여, 원하는 유저의 프로필에서 구독을 추가하고 구독자 수를 확인할 수 있습니다.
   - 구독을 활용한 로직은 시간부족으로 추가되지 못했습니다.
+- ![image-20210314231403760](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231403760.png)
 
 
 
 ### Movie : 영화 app
 
 - MovieList : Now_playing, Popular, Up_Coming
+  - ![image-20210314231421775](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231421775.png)
+  - ![image-20210314231440062](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231440062.png)
   - 무비리스트 페이지에서는 각 현재 상영중, 인기, 개봉예정인 영화를 확인할 수 있습니다.
   - 각 영화의 데이터는 tmdb 를 통해 json 형식으로 받아와 db에 fixture로 loaddata 하였습니다.
   - carousel 을 활용하여, 영화정보를  확인할 수 있으며, 자동으로 페이지가 넘어가나 마우스 hover되며 멈추고 해당 이미지 자체를 드래그를 통해 넘겨서 볼 수 있습니다.
   - 영화의 이미지를 클릭하면 modal 형식으로 영화의 이미지를 크게 볼 수 있으며 해당 영화의 tmdb 에서의 평점과 wish 추가/삭제 기능을 할 수 있고, 영화제목 클릭시 detail 페이지로 넘어갈 수 있습니다. 
 - Movie Detail
+  - ![image-20210314231503051](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231503051.png)
   - 영화의 상세페이지를 보여주며, 해당 영화명에 대한 리뷰 작성내역을 한눈에 확인할 수 있습니다.
   - 해당 페이지에서 유저는 영화를 wish 리스트에 추가하고, 삭제할 수 있으며, 외부 api로 검색을 요청할 수 있습니다.
   - movie detail은 영화의 제목을 직접 tmdb 에 요청을 보내 보여주기 때문에, fixture에 저장되지 않은 영화 정보도 확인할 수 있습니다.
   - 영화 제목인 간단하여 해당 제목을 포함한 영화 정보가 많을 경우에는 정확히 영화명이 일치하는 영화를 우선적으로 받아오게 됩니다. 일치하는 영화가 없다면 응답 데이터 중 0번째 인덱스를 보여주며, 응답데이터가 없을 경우 "존재하지 않는 영화입니다." 를 띄우게 됩니다.
 - Recommend
+  - ![image-20210314231517689](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231517689.png)
   - 사용자가 추가한 Wish를 기반으로 영화를 추천합니다.
   - 사용자가 movielist에 들어가게 되면, 가장 상단에 사용자에게 영화를 추천합니다.
   - 로직은 wish 되어있는 영화 중 랜덤으로 하나의 영화 정보를 선정한 후, 해당 영화 정보를 tmdb에 similar 페이지로 송신합니다. 수신된 데이터는 랜덤으로 선택됩니다.

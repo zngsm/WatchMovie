@@ -1,7 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-# import sys ; sys.path.append('/dir/of/movies')
-# from movies.models import Movie
 
 # Create your models here.
 class User(AbstractUser):
