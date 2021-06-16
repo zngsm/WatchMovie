@@ -1,19 +1,53 @@
-# README
+# Watch Movie
 
-## i. 팀원 정보 및 업무 분담 내역
+![logo](README.assets/logo.png)
 
-|            | 수민                  | 도균                  |
-| ---------- | --------------------- | --------------------- |
-| 담당       | 백엔드                | 프론트엔드            |
-| 주사용언어 | python                | javascript            |
-| 프레임워크 | django                | vue.js                |
-| 주 역할    | 모델링, api 요청, css | 서버 api, 디자인, css |
+#### 🎈About Watch Movie
+
+영화 리뷰 공뷰 웹 사이트
+
+자체 보유한 300 여개의 영화 데이터와 외부 API를 활용한 다양한 영화 정보 제공
+
+사용자 선호 기반으로 유사 영화를 추천 제공 합니다.
+
+
+
+#### 🎁Skills
+
+Python, Django, JavaScript, Vue.js, CSS, HTML
+
+
+
+#### 🧨Getting Start
+
+##### BE
+
+```sh
+$ pip install -r requirements.txt
+$ python manage.py runserver
+```
+
+##### FE
+
+```sh
+$ npm i
+$ npm run serve
+```
+
+
+
+#### 👩🏻‍🤝‍👩🏻TEAM
+
+| **이름**   | 담당     | **스택**           | 주 역할                                          |
+| ---------- | -------- | ------------------ | ------------------------------------------------ |
+| **장수민** | Backend  | Python, Django     | 모델링, API 설계 및 응답, 외부 API 요청, FE 백업 |
+| **명도균** | Frontend | JavaScript, Vue.js | 디자인, 화면 구성, 서버 API 요청                 |
 
 > 주 역할은 이와 같이 분담하였으나, 이외엔 유연하게 상황에 따라 역할을 나누어 프로젝트를 진행하였습니다.
 
 
 
-##  ii. 목표 서비스 구현 및 실제 구현 정도
+####  🚗목표 서비스 구현 및 실제 구현 정도
 
 | 목표                                  | 구현여부 |
 | ------------------------------------- | -------- |
@@ -35,11 +69,11 @@
 
 
 
-##  iii. 데이터베이스 모델링(ERD) 
+####  💻ERD
 
 ![DB_modeling(erdcloud)](README.assets/DB_modeling(erdcloud).png)
 
-Community
+##### Community
 
 > Review와 Comment를 Crud 하는 App
 
@@ -48,7 +82,7 @@ Community
 
 
 
-Accounts
+##### Accounts
 
 > Signup 과 Login 등 인증정보와 사용자의 구독정보, 위시리스트 등 사용자 App
 
@@ -59,7 +93,7 @@ Accounts
 
 
 
-Movies
+##### Movies
 
 > Now_playing , Popular, UpComing 등 카테고리별 movie 정보
 
@@ -68,30 +102,31 @@ Movies
 
 
 
-## iv. 필수 기능에 대한 설명 
+#### 🔎필수 기능
 
-### 메인페이지 
+##### 메인페이지 
 
 - 페이지 입장시 회원가입/로그인 유도 + 로그인시 인사문구와 상단 네비게이션바 활성화
 
-![image-20210314204340309](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204340309.png)
+![image-20210616181603272](README.assets/image-20210616181603272.png)
 
-![image-20210314204537690](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204537690.png)
+![image-20210616181502871](README.assets/image-20210616181502871.png)
 
 - 스크롤시 사이트에 대한 간단한 소개(아래는 개발자 간단 소개)
   - 기본적으로 접혀있는 형태이며 V 를 클릭시 아래의 설명이 나타남
 
-![image-20210314204433473](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210314204433473.png)
+![image-20210616181639459](README.assets/image-20210616181639459.png)
 
 
 
 
 
-### Community : 리뷰 및 댓글 app
+##### Community : 리뷰 및 댓글 app
 
 - Review 
-  - ![image-20210314231149042](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231149042.png)
-  - ![image-20210314231118583](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231118583.png)
+  - ![image-20210616181843478](README.assets/image-20210616181843478.png)
+  - ![image-20210616181919248](README.assets/image-20210616181919248.png)
+  - ![image-20210616181939525](README.assets/image-20210616181939525.png)
   - 인증된 사용자는 리뷰를 작성할 수 있고, 다른 사용자의 리뷰를 확인할 수 있습니다.
   - 인증된 사용자와 리뷰의 작성자가 동일하다면, 리뷰를 수정하고 삭제할 수 있습니다.
   - 리뷰는 10개 단위로 페이지네이션되어 확인할 수 있습니다.
@@ -104,13 +139,13 @@ Movies
 
 
 
-### Accounts : 사용자 정보 app
+##### Accounts : 사용자 정보 app
 
 - Signup
-  - ![image-20210314231328373](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231328373.png)
+  - ![image-20210616182002106](README.assets/image-20210616182002106.png)
   - 회원가입 기능입니다.
 - login / out
-  - ![image-20210314231343901](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231343901.png)
+  - ![image-20210616182019617](README.assets/image-20210616182019617.png)
   - jwt 토큰을 받아 로그인 할 수 있습니다.
 - Wish
   - 사용자는 원하는 영화를 wish 리스트에 넣을 수 있습니다. wish될 경우 해당 영화의 title 정보와 num 정보가 넘어옵니다. num은 tmdb에서 활용되는 movie의 고유 id 입니다.
@@ -120,27 +155,27 @@ Movies
 - subscribe
   - 구독기능을 추가하여, 원하는 유저의 프로필에서 구독을 추가하고 구독자 수를 확인할 수 있습니다.
   - 구독을 활용한 로직은 시간부족으로 추가되지 못했습니다.
-- ![image-20210314231403760](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231403760.png)
+- ![image-20210616181824809](README.assets/image-20210616181824809.png)
 
 
 
-### Movie : 영화 app
+##### Movie : 영화 app
 
 - MovieList : Now_playing, Popular, Up_Coming
-  - ![image-20210314231421775](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231421775.png)
-  - ![image-20210314231440062](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231440062.png)
+  - ![image-20210616181732419](README.assets/image-20210616181732419.png)
+  - ![image-20210616181747792](README.assets/image-20210616181747792.png)
   - 무비리스트 페이지에서는 각 현재 상영중, 인기, 개봉예정인 영화를 확인할 수 있습니다.
   - 각 영화의 데이터는 tmdb 를 통해 json 형식으로 받아와 db에 fixture로 loaddata 하였습니다.
   - carousel 을 활용하여, 영화정보를  확인할 수 있으며, 자동으로 페이지가 넘어가나 마우스 hover되며 멈추고 해당 이미지 자체를 드래그를 통해 넘겨서 볼 수 있습니다.
   - 영화의 이미지를 클릭하면 modal 형식으로 영화의 이미지를 크게 볼 수 있으며 해당 영화의 tmdb 에서의 평점과 wish 추가/삭제 기능을 할 수 있고, 영화제목 클릭시 detail 페이지로 넘어갈 수 있습니다. 
 - Movie Detail
-  - ![image-20210314231503051](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231503051.png)
+  - ![image-20210616181802112](README.assets/image-20210616181802112.png)
   - 영화의 상세페이지를 보여주며, 해당 영화명에 대한 리뷰 작성내역을 한눈에 확인할 수 있습니다.
   - 해당 페이지에서 유저는 영화를 wish 리스트에 추가하고, 삭제할 수 있으며, 외부 api로 검색을 요청할 수 있습니다.
   - movie detail은 영화의 제목을 직접 tmdb 에 요청을 보내 보여주기 때문에, fixture에 저장되지 않은 영화 정보도 확인할 수 있습니다.
   - 영화 제목인 간단하여 해당 제목을 포함한 영화 정보가 많을 경우에는 정확히 영화명이 일치하는 영화를 우선적으로 받아오게 됩니다. 일치하는 영화가 없다면 응답 데이터 중 0번째 인덱스를 보여주며, 응답데이터가 없을 경우 "존재하지 않는 영화입니다." 를 띄우게 됩니다.
 - Recommend
-  - ![image-20210314231517689](C:\Users\multicampus\Desktop\Jang\projects\WatchMovie\README.assets\image-20210314231517689.png)
+  - ![image-20210616181714533](README.assets/image-20210616181714533.png)
   - 사용자가 추가한 Wish를 기반으로 영화를 추천합니다.
   - 사용자가 movielist에 들어가게 되면, 가장 상단에 사용자에게 영화를 추천합니다.
   - 로직은 wish 되어있는 영화 중 랜덤으로 하나의 영화 정보를 선정한 후, 해당 영화 정보를 tmdb에 similar 페이지로 송신합니다. 수신된 데이터는 랜덤으로 선택됩니다.
@@ -151,13 +186,13 @@ Movies
 
 
 
-## v. 기타(느낀점)
+#### 🎨기타(느낀점)
 
-수민
+##### 수민
 
 첫 프로젝트를 완성하며, 기업에서 프로젝트 경험을 요구하는 이유를 알 수 있었습니다. 직접 장기 프로젝트에 참가하여 역할을 나누고 협업을 하며, 백엔드와 프론트엔드의 역할에 대해 이해할 수 있었고, 저에게 좀 더 맞는 역할이 무엇인지 분명히 할 수 있었습니다. 2학기에 있을 프로젝트가 두렵기도 하고 조금은 기대되기도 합니다. 이번 기회를 통해 좀 더 개발자의 길에 한 걸음 가까워졌다고 생각합니다.
 
-도균
+##### 도균
 
 vue와 디자인 및 css를 주로 구현했는데, vue의 경우 vuex를 쓰지 않고 구현하려다보니 데이터를 주고 받는 데에 좀 어려움을 느꼈습니다. 또한 장고의 경우 현재의 사용자를 `request.user`로 알 수 있었으나 vue의 경우는 처음에 방법을 알지 못해 profile 페이지 구현이 힘들었습니다. jwt토큰 디코딩 방법을 찾아서 해결할 수 있었으나 더 나은 방법이 있을 것 같다는 생각에 아쉬움이 남았습니다. vue의 경우 css와 연동되어 static 폴더에있는 이미지를 불러온다거나, 에니메이션 효과, 특히 Lifecycle  hook을 사용하는 것이 낯설었습니다. 아직 vue에 대한 이해가 확실하지 않은 상태로 구현하려다보니, 어떨 때 훅을 사용하고 함수를 호출해야하는지 어려웠습니다. 
 
